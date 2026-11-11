@@ -1,0 +1,81 @@
+# name: 'Dev PR Merge: Update Changelog'
+
+# on:
+#   pull_request:
+#     types: [closed]
+#     branches: [dev]
+
+# jobs:
+#   update_changelog:
+#     if: github.event.pull_request.merged == true && github.event.pull_request.head.ref != 'app'
+#     name: Update Changelog
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Log source branch
+#         run: |
+#           echo "Source branch: ${{ github.event.pull_request.head.ref }}"
+
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
+#           token: ${{ secrets.PAT_TOKEN }}
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '20'
+
+#       # Use a static cache key since our dependencies won't change
+#       - name: Cache dependencies
+#         uses: actions/cache@v3
+#         id: cache
+#         with:
+#           path: |
+#             ~/.npm
+#             node_modules
+#           key: changelog-deps-v2
+
+#       - name: Install dependencies
+#         if: steps.cache.outputs.cache-hit != 'true'
+#         run: npm install --no-save axios date-fns date-fns-tz release-it @release-it/conventional-changelog @octokit/rest @slack/web-api
+
+#       - name: Configure Git
+#         run: |
+#           git config --global user.name 'GitHub Actions Bot'
+#           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+#       - name: Run release:dev
+#         env:
+#           BRANCH_NAME: ${{ github.head_ref }}
+#           JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+#           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+#           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+#           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+#           SLACK_DEV_CHANNEL_ID: ${{ secrets.SLACK_DEV_CHANNEL_ID }}
+#         run: npm run release:dev
+
+#       - name: Commit changes
+#         run: |
+#           git add --all
+#           if git diff --staged --quiet; then
+#             echo "No changes to commit"
+#           else
+#             git diff --staged --name-status
+#             git commit -m "chore: update changelog and related files"
+#           fi
+
+#       - name: Push to dev
+#         env:
+#           HUSKY: 0
+#           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+#         run: |
+#           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/summarizator/fora-frontend.git
+#           git push --follow-tags origin dev
+
+#       - name: Log merge event
+#         run: |
+#           echo "Pull request #${{ github.event.pull_request.number }} was merged into dev branch"
+#           echo "PR Title: ${{ github.event.pull_request.title }}"
+#           echo "Merged by: ${{ github.event.pull_request.merged_by.login }}"

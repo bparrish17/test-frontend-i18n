@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# this will enforce the commit message to follow the conventional commit format
+# npx --no-install commitlint --edit "$1"

@@ -1,0 +1,26 @@
+name: Security Scanning
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - staging
+      - e2e
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  security-scan:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-22.04
+    steps:
+      - name: SAST Scan
+        uses: AppThreat/sast-scan-action@v1.0.0
+        with:
+          output: reports
+          type: nodejs
+      - name: Upload scan reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: sast-scan-reports
+          path: reports

@@ -1,0 +1,14 @@
+name: Manually Clean the Workspace
+on: workflow_dispatch
+
+jobs:
+  runcleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          expr 1 + 1 > output.log
+      - name: Print GH Workspace
+        run: echo ${GITHUB_WORKSPACE}
+      - name: Prune GH Workspace
+        run: /bin/sh -c "find \"${GITHUB_WORKSPACE}\" -mindepth 1 ! -name . -prune -exec rm -rf {} +"

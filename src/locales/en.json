@@ -1,0 +1,1300 @@
+{
+  "agendaStats": {
+    "meetings": "Meetings",
+    "total": "Total",
+    "internal": "Internal",
+    "external": "External",
+    "availability": "Availability"
+  },
+  "calendarSyncButton": {
+    "syncingCalendar": "Syncing Calendar...",
+    "calendarSyncComplete": "Calendar Sync Complete.",
+    "reSync": "Re-Sync"
+  },
+  "tableWithSearch": {
+    "enterSearchQueryPlaceholder": "Enter search query"
+  },
+  "chatArtifactContent": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "templateSaved": "Template Saved!",
+    "templateSaveError": "Template Save Error",
+    "previousArtifactVersionAriaLabel": "Previous Artifact Version",
+    "nextArtifactVersionAriaLabel": "Next Artifact Version",
+    "copyAriaLabel": "Copy"
+  },
+  "chatCollapsedViews": {
+    "askFora": "Ask FORA"
+  },
+  "chatHeader": {
+    "untitledContent": "Untitled Content",
+    "askFora": "Ask FORA",
+    "showHideReasoningAriaLabel": "Show/Hide Reasoning",
+    "optionOverflowMenuAriaLabel": "Option Overflow Menu",
+    "summaryOptions": "Summary Options",
+    "clearChat": "Clear Chat",
+    "contractAriaLabel": "Contract",
+    "expandAriaLabel": "Expand",
+    "collapseAriaLabel": "Collapse"
+  },
+  "chatInput": {
+    "messageForaPlaceholder": "Message FORA",
+    "slowClearTheChat": "Slow? Clear the chat to improve performance:",
+    "clearChat": "Clear Chat"
+  },
+  "chatSplashScreen": {
+    "strategicAnalysis": "Strategic Analysis",
+    "reviewTheStrategicTopics": "Review the strategic topics relevant to your org.",
+    "sentimentAnalysis": "Sentiment Analysis",
+    "understandTheSentimentRegarding": "Understand the sentiment regarding topics & people.",
+    "topicDeepDive": "Topic Deep-Dive",
+    "digDeeperIntoAn": "Dig deeper into an individual topic that was discussed.",
+    "transcriptDeepDive": "Transcript Deep-Dive",
+    "reviewKeyQuotesDebates": "Review key quotes, debates, and other info.",
+    "whatWouldYouLike": "What would you like to know about this meeting?",
+    "hereAreSomeWays": "Here are some ways that you can leverage FORA:"
+  },
+  "chatThinkingMessage": {
+    "foraIsThinking": "FORA is thinking..."
+  },
+  "createFocusSuccessModal": {
+    "newCategoryCreated": "New Category Created",
+    "followers": "{{collaborators}} Followers",
+    "rules": "{{rules}} Rules"
+  },
+  "companyDomainsFilter": {
+    "companyDomain": "Company Domain",
+    "filterByCompanyDomain": "Filter by company domain",
+    "filterByCompanyDomainPlaceholder": "Filter by company domain (e.g. att.com)"
+  },
+  "labelsFilter": {
+    "labels": "Labels",
+    "selectRelevantTagsTo": "Select relevant tags to focus on"
+  },
+  "peopleFilter": {
+    "people": "People",
+    "filterByInternalAnd": "Filter by internal and external people",
+    "addInternalPeoplePlaceholder": "Add Internal People...",
+    "addExternalPeoplePlaceholder": "Add External People...",
+    "inputAnEmailThen": "Input an email then press \"Enter\" or \"Tab\""
+  },
+  "createLensForm": {
+    "edit": "Edit",
+    "create": "Create",
+    "editLensSettings": "Edit Lens Settings",
+    "createYourLens": "Create Your Lens",
+    "editTheTitleCustomization": "Edit the title, customization options, and collaborators for your lens.",
+    "addATitleCustomization": "Add a title, customization options, and collaborators to your lens.",
+    "lensTitle": "Lens Title",
+    "selectVisibilityPlaceholder": "Select visibility...",
+    "selectColorPlaceholder": "Select color...",
+    "selectIconPlaceholder": "Select icon...",
+    "selectFollowersPlaceholder": "Select Followers",
+    "duration": "Duration",
+    "howOftenDoYou": "How often do you want FORA to save this Lens to your history?",
+    "describeYourLens": "Describe Your Lens",
+    "theFollowingPromptsHelp": "The following prompts help FORA understand what you are looking for.",
+    "topicsThemes": "Topics & Themes",
+    "whatSpecificTopicsThemes": "What specific topics, themes, or keywords are you looking to track with this Lens?",
+    "yourPromptHerePlaceholder": "Your prompt here",
+    "howPreciseShouldFora": "How precise should FORA be in matching content to this Lens?",
+    "precisionSliderAriaLabel": "precision-slider",
+    "whyThisIsImportant": "Why This Is Important",
+    "shareWhyYouDecided": "Share why you decided to create this Lens and what kinds of insights you are\n                  hoping to gain.",
+    "highPriorityItems": "High-Priority Items",
+    "whatAreSomeExamples": "What are some examples of the kinds of updates that you would deem high-priority\n                  within this Lens?",
+    "onceYouStartThese": "Once you start these prompts, FORA can provide suggestions to add detail to them.",
+    "filteringOptions": "Filtering Options",
+    "byDefaultLensesLook": "By default, lenses look for updates about all people, dates, and types available to you, but you should filter this down to get more relevant updates.",
+    "filterBy": "Filter By",
+    "save": "Save",
+    "finishSave": "Finish & Save",
+    "pleaseResolveTheFollowing": "Please resolve the following required fields:",
+    "title": "Title",
+    "topicsThemesPrompt": "Topics & Themes Prompt",
+    "whyThisIsImportant2": "Why This is Important Prompt",
+    "contentType": "Content Type",
+    "optional": "Optional"
+  },
+  "createLensSuccessModal": {
+    "lensCreated": "Lens Created",
+    "yourLensHasBeen": "Your lens has been created.",
+    "active": "active"
+  },
+  "followersChangeAlertDialog": {
+    "lensFollowerWarning": "Lens Follower Warning",
+    "followersWillHaveAccess": "Followers will have access to insights from past and future meetings that you have access to. Meetings marked \"Attendees only\" will not be shared, unless you are an attendee. This action cannot be undone after you save the lens.",
+    "confirm": "Confirm"
+  },
+  "previewLensSourcesModal": {
+    "previewSources": "Preview Sources",
+    "previewLensSources": "Preview Lens Sources",
+    "basedOnYourLens": "Based on your Lens description and filtering options, these meetings serve as some example sources for your Lens. If these look inaccurate, please update your prompt and filtering options.",
+    "lensSources": "Lens Sources",
+    "noGoodHistoricalMatches": "No good historical matches found for preview."
+  },
+  "customSummaryGenerationProgress": {
+    "generatingSummary": "Generating Summary...",
+    "thisIsTakingLonger": "This is taking longer than usual. If you Save & Close, FORA will work in the background and alert you when the summary is ready.",
+    "saveClose": "Save & Close",
+    "progressBar": "Progress Bar",
+    "remove": "Remove",
+    "addProgressBar": "Add Progress Bar",
+    "true": "true",
+    "false": "false",
+    "togglegenerated": "toggleGenerated"
+  },
+  "customSummaryPreview": {
+    "preview": "Preview",
+    "haveForaAutomaticallyApply": "Have FORA automatically apply this custom summary to similar meetings",
+    "whenThisIsOn": "When this is on, FORA will attempt to proactively apply this format to relevant meetings."
+  },
+  "customSummaryTemplateFormatForm": {
+    "writeYourTemplate": "Write Your Template",
+    "describeDifferentSectionsWith": "Describe different sections with bullet points or paste a detailed format here.",
+    "rewriteWithAi": "Rewrite with AI",
+    "templateNamePlaceholder": "Template Name",
+    "undo": "Undo",
+    "redo": "Redo",
+    "suggestions": "Suggestions",
+    "examples": "Examples",
+    "templateContentsPlaceholder": "Template contents..."
+  },
+  "digestCard": {
+    "slackLogoAlt": "Slack Logo",
+    "disabled": "disabled"
+  },
+  "digestForm": {
+    "summarizeOneOrMultiple": "Summarize one or multiple {{sourceType}} channels at once as a digest.",
+    "manageDigests": "Manage Digests",
+    "aboutSlackIntegration": "About Slack Integration",
+    "makeSureTheFora": "Make sure the FORA Slack integration is added in your Slack channels. Based on organization rules, private channels cannot be summarized. ",
+    "learnMore": "Learn more",
+    "dailyRepeatsEvery24": "Daily – Repeats every 24 hours at midnight.",
+    "weeklyRepeatsEverySunday": "Weekly – Repeats every Sunday at midnight.",
+    "monthlyRepeatsOnThe": "Monthly – Repeats on the last day of each month at midnight.",
+    "category": "Category",
+    "chooseCategoryPlaceholder": "Choose Category",
+    "pleaseResolveTheRequired": "Please resolve the required fields",
+    "save": "Save",
+    "create": "Create"
+  },
+  "teamsDigestModal": {
+    "summarizeAllCurrentFuture": "Summarize all current & future channels",
+    "addsFutureChannelsAutomatically": "(adds future channels automatically)",
+    "edit": "Edit",
+    "createA": "Create a",
+    "whichTeamsChannelsDo": "Which Teams' channels do you want to summarize?",
+    "connectTeams": "Connect Teams",
+    "learnMore": "Learn More",
+    "contactUsOrYour": "Contact us or your admin for details."
+  },
+  "explorerAnalyzeButton": {
+    "noSourcesSelected": "No Sources Selected",
+    "noValidSourcesSelected": "No Valid Sources Selected",
+    "analyze": "Analyze"
+  },
+  "explorerChat": {
+    "document": "Document"
+  },
+  "explorerSourcesContent": {
+    "sourceRemoved": "Source Removed",
+    "sourcesAdded": "Sources Added",
+    "selectedSummaries": "Selected Summaries",
+    "add": "Add",
+    "clear": "Clear",
+    "noSelectedSummaries": "No Selected Summaries",
+    "startByAddingSummaries": "Start by adding summaries"
+  },
+  "explorerSplash": {
+    "exploreYourSummaries": "Explore Your Summaries",
+    "welcomeToTheCard": "Welcome to the Card Explorer",
+    "startByAddingSome": "Start by adding some sources to explore using the button on the right."
+  },
+  "feedFilterMobile": {
+    "filterOptions": "FILTER OPTIONS",
+    "clearFilters": "Clear Filters",
+    "viewResults": "View Results"
+  },
+  "feedFilterSidebar": {
+    "filterBy": "Filter by",
+    "clearFilters": "Clear Filters"
+  },
+  "feedRangepicker": {
+    "customDateRange": "Custom Date Range",
+    "reset": "Reset",
+    "done": "Done",
+    "mmDdYy": "MM/DD/YY"
+  },
+  "focusEditDetails": {
+    "category": "Category",
+    "categoryPlaceholder": "Category",
+    "description": "Description",
+    "addContextToHelpPlaceholder": "Add context to help FORA understand this category. How is information shared (meetings, chats, reports)? What are the main subjects covered within this category?",
+    "color": "Color"
+  },
+  "focusEditFollowers": {
+    "followers": "Followers",
+    "addColleaguesPlaceholder": "Add colleagues...",
+    "reMapAnyMatching": "Re-map any matching existing meetings to this category",
+    "ifThisIsOn": "If this is on, when a category is created, Fora will attempt to re-match the category of every future meeting currently on your agenda"
+  },
+  "focusEditMeetings": {
+    "findMeetings": "Find Meetings",
+    "addedMeetings": "Added Meetings",
+    "noMeetingsAdded": "No Meetings Added"
+  },
+  "focusEditRules": {
+    "justMe": "Just Me",
+    "anyoneFollowingThisFocus": "Anyone following this Focus",
+    "anyoneAtTheCompany": "Anyone at the company",
+    "automation": "Automation",
+    "automaticallyAddForaTo": "Automatically add Fora to all meetings matched to this category",
+    "requiresAtLeastOne": "*Requires at least one automation rule",
+    "sensitive": "Sensitive ",
+    "meetingsWillOnlyGenerate": "meetings will only generate summaries for Full users that are invited to the meeting. Executive users will still receive all summaries.",
+    "sensitive2": "sensitive",
+    "visibility": "Visibility",
+    "setVisibility": "Set Visibility",
+    "rules": "Rules",
+    "noAutomationRulesCreated": "No Automation Rules Created",
+    "createAnAutomationRule": "Create an automation rule",
+    "addNewAutomationRule": "Add New Automation Rule",
+    "createRule": "Create Rule"
+  },
+  "focusMetadata": {
+    "followers": "{{followersCount}} followers",
+    "rules": "{{rulesCount}} rules"
+  },
+  "focusRuleForm": {
+    "meetingTitle": "Meeting title",
+    "organizationIs": "Organization Is",
+    "organizationCanOnlyBe": "Organization Can Only Be",
+    "organizationIsNot": "Organization Is Not",
+    "organizationCanNeverBe": "Organization Can Never Be",
+    "meetingAttendeeEmailIs": "Meeting Attendee Email Is",
+    "meetingOrganizerEmailIs": "Meeting Organizer Email Is",
+    "organizationCanNeverBe2": "'Organization Can Never Be'/'Organization Can Only Be' Rules Are Always Required",
+    "setAsRequired": "Set as Required",
+    "thisRuleMustBe": "This rule must be met for this category to be assigned to a meeting",
+    "automateBy": "Automate By",
+    "enterMeetingTitleKeywordPlaceholder": "Enter meeting title keyword",
+    "organization": "Organization",
+    "meetingHasAtLeast": "Meeting has at least",
+    "mustHaveAtLeast": "Must Have At Least 1 Invitee",
+    "inviteesFrom": "invitees from",
+    "organizationIsNot2": "Organization is Not",
+    "not": "not",
+    "meetingCanNotHave": "Meeting can not have any invitees from",
+    "nameEmailComPlaceholder": "name@email.com",
+    "remove": "Remove",
+    "addAnother": "Add another {{buttonLabel}}"
+  },
+  "focusRule": {
+    "required": "Required",
+    "notRequired": "Not required"
+  },
+  "addLabelPill": {
+    "addALabel": "Add a Label"
+  },
+  "insightCarousel": {
+    "previousAriaLabel": "Previous",
+    "nextAriaLabel": "Next"
+  },
+  "reskinCardBody": {
+    "previewSharedSummary": "Preview Shared Summary",
+    "in": "In ",
+    "privateMeetingsAreOnly": "Private meetings are only visible to invitees of those meetings. Other lens followers will not see data from those meetings.",
+    "private": "PRIVATE"
+  },
+  "reskinMeetingCardControlBar": {
+    "startingEarlyAddFora": "Starting early? Add FORA to the meeting now",
+    "start": "Start",
+    "addForaBack": "Add FORA Back",
+    "join": "Join",
+    "addFora": "Add Fora"
+  },
+  "reskinMeetingCard": {
+    "untitledMeeting": "Untitled Meeting",
+    "attended": "Attended",
+    "attending": "Attending"
+  },
+  "reskinMeetingMenu": {
+    "meetingOptions": "Meeting Options",
+    "youAreAboutTo": "You are about to delete this page ",
+    "permanently": "permanently",
+    "thisAction": "This action ",
+    "cannotBeUndone": "cannot be undone.",
+    "colleaguesWillAlsoLose": "colleagues will also lose access ",
+    "noteAnyInsightsGenerated": "Note: Any insights generated with this content will be immediately rewritten to remove this meeting data.",
+    "meetingCategory": "Meeting Category",
+    "joinMeeting": "Join Meeting",
+    "recording": "{{recordingButtonText}} Recording",
+    "editLabels": "Edit Labels",
+    "editCategory": "Edit Category",
+    "removeFora": "Remove FORA",
+    "removeForaFromSeries": "Remove FORA From Series",
+    "shareSummary": "Share Summary",
+    "viewTranscript": "View Transcript",
+    "deleteMeeting": "Delete Meeting"
+  },
+  "transcriptModal": {
+    "transcript": "Transcript",
+    "copyTranscript": "Copy Transcript"
+  },
+  "reskinSummaryCardMenu": {
+    "summaryOptions": "Summary Options",
+    "copyLink": "Copy Link",
+    "unsave": "Unsave",
+    "save": "Save",
+    "unarchive": "Unarchive",
+    "archive": "Archive"
+  },
+  "reskinSummaryCard": {
+    "in": "In"
+  },
+  "statusTimeLabel": {
+    "today": "Today,"
+  },
+  "featureGatesTable": {
+    "name": "Name",
+    "copiedToClipboard": "Copied to clipboard",
+    "copyFailed": "Copy failed",
+    "couldNotCopyText": "Could not copy text to clipboard.",
+    "status": "Status",
+    "codeUsage": "Code Usage",
+    "activity": "Activity",
+    "checksHr": "checks/hr",
+    "lastModified": "Last Modified",
+    "unknown": "Unknown",
+    "yourAccess": "Your Access",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "description": "Description:",
+    "rules": "Rules:",
+    "pass": "{{passPercentage}}% Pass",
+    "type": "Type:",
+    "target": "Target:",
+    "noConditionsDefined": "No conditions defined",
+    "noRulesDefined": "No rules defined",
+    "created": "Created:",
+    "version": "Version:",
+    "idType": "ID Type:",
+    "viewInStatsigConsole": "View in Statsig Console",
+    "viewInStatsig": "View in Statsig",
+    "nonArchivedFeatureGates": "Non-Archived Feature Gates",
+    "collapseAll": "Collapse All",
+    "expandAll": "Expand All",
+    "refresh": "Refresh",
+    "noStatsigConsoleApi": "No Statsig Console API key found in environment variables. Set VITE_STATSIG_CONSOLE_KEY to use this feature.",
+    "noStatsigProjectId": "No Statsig Project ID found in environment variables. Set VITE_STATSIG_PROJECT_ID to enable “View in Statsig” links.",
+    "noFeatureGatesFound": "No feature gates found. Try refreshing or check your Statsig configuration.",
+    "totalGates": "Total Gates: {{length}}",
+    "dataRefreshedByStatsig": "Data refreshed by Statsig hourly"
+  },
+  "focusSelect": {
+    "chooseACategory": "Choose a category",
+    "foraSuggestion": "Fora suggestion"
+  },
+  "foraBanner": {
+    "whatIsFora": "WHAT IS FORA?",
+    "solutions": "Solutions",
+    "peopleOrgPerformance": "People & Org Performance",
+    "customerRetentionGrowth": "Customer Retention & Growth",
+    "programProjectManagement": "Program & Project Management",
+    "product": "Product",
+    "productOverview": "Product Overview",
+    "productPricing": "Product Pricing",
+    "getSupport": "Get Support",
+    "learnMore": "Learn More"
+  },
+  "highPriorityExplanation": {
+    "highPriority": "High Priority"
+  },
+  "infiniteTable": {
+    "endOfResults": "End of Results"
+  },
+  "labelSelect": {
+    "addLabelsPlaceholder": "Add labels"
+  },
+  "label": {
+    "addedByAi": "Added by AI",
+    "addedByYourTeam": "Added by your team"
+  },
+  "labelsBar": {
+    "viewLess": "View less",
+    "editLabels": "Edit labels",
+    "addALabel": "Add a label"
+  },
+  "fullPageLoader": {
+    "logoAlt": "logo"
+  },
+  "meetingSelect": {
+    "addFollowersButtonAriaLabel": "add followers button",
+    "searchForUpcomingMeetingsPlaceholder": "Search for upcoming meetings by title..."
+  },
+  "deleteConfirmationModal": {
+    "cancel": "Cancel"
+  },
+  "labelFormModal": {
+    "edit": "Edit",
+    "new": "New"
+  },
+  "labelsModal": {
+    "addAndEditLabels": "Add and Edit Labels",
+    "cancel": "Cancel",
+    "done": "Done"
+  },
+  "videoModal": {
+    "playbackSpeed": "Playback Speed",
+    "normal": "Normal"
+  },
+  "welcomeModal": {
+    "welcomeBack": "Welcome Back!",
+    "yourSettings": "your settings",
+    "whatSNew": "What's New",
+    "dismiss": "Dismiss",
+    "goToProfileSettings": "Go to Profile Settings"
+  },
+  "privateLabel": {
+    "privateMeetingsAreOnly": "Private meetings are only visible to invitees of those meetings. Other lens followers will not see data from those meetings.",
+    "private": "Private"
+  },
+  "reskinCalendar": {
+    "backToToday": "Back to Today"
+  },
+  "scrollContainer": {
+    "noFound": "No {{resultsText}} Found"
+  },
+  "accordionTable": {
+    "viewMore": "View More"
+  },
+  "columnFilterPopover": {
+    "reset": "Reset",
+    "close": "Close"
+  },
+  "paginator": {
+    "show": "Show {{pageSize}}"
+  },
+  "autoPluginTest": {
+    "triggeringRenderErrorIn": "Triggering Render Error in AutoPluginTestComponent",
+    "thisErrorShouldBe": "This error should be caught by the automatic Error Boundary via plugin. Check Rollbar.",
+    "autoPluginErrorBoundary": "Auto-Plugin Error Boundary Test",
+    "thisComponentIsAutomatically": "This component is automatically wrapped with an error boundary by the vite-error-boundary-plugin. The error boundary wrapping happens consistently in both development and production. Clicking the button should trigger an error that gets caught by the error boundary, displaying a fallback UI instead of crashing the page.",
+    "testAutoErrorBoundary": "Test Auto Error Boundary"
+  },
+  "autoWrappedTest": {
+    "triggeringRenderErrorIn": "Triggering Render Error in AutoWrappedTest",
+    "thisErrorShouldBe": "This error should be caught by the automatic Error Boundary. Check Rollbar.",
+    "autoWrappedTestComponent": "Auto-Wrapped Test Component",
+    "thisComponentDoesnT": "This component doesn't manually import the error boundary component. It should be automatically wrapped by the error boundary plugin. If clicking the button crashes the page, auto-wrapping isn't working.",
+    "testAutoWrapping": "Test Auto-Wrapping"
+  },
+  "globalSearchLearnMore": {
+    "learnMoreAboutSearching": "Learn more about searching with Fora"
+  },
+  "recentSearches": {
+    "recentSearches": "Recent Searches",
+    "clearAll": "Clear All"
+  },
+  "lensInsightMenu": {
+    "insightOptions": "Insight Options",
+    "editLensSettings": "Edit Lens Settings",
+    "deactivateLens": "Deactivate Lens",
+    "reactivateLens": "Reactivate Lens",
+    "viewLensDetails": "View Lens Details"
+  },
+  "addMenu": {
+    "recordLiveMeeting": "Record Live Meeting",
+    "pasteConferenceLink": "Paste conference link",
+    "addForaToA": "Add FORA to a Meeting",
+    "digests": "DIGESTS",
+    "slackDigest": "Slack Digest",
+    "teamsDigest": "Teams Digest",
+    "noteForwardEmailThreads": "Note: Forward email threads to",
+    "feedForaDay": "feed@fora.day"
+  },
+  "appHeader": {
+    "close": "Close",
+    "foraBrandLogoAlt": "fora brand logo"
+  },
+  "mobileHeader": {
+    "home": "Home",
+    "latest": "Latest",
+    "addForaToA": "Add FORA to a meeting",
+    "close": "Close",
+    "support": "Support",
+    "signOut": "Sign Out"
+  },
+  "documentDropzone": {
+    "uploadComplete": "Upload complete",
+    "selectFile": "Select file"
+  },
+  "summarizeAudioVideo": {
+    "addAFileOr": "Add a file or link",
+    "timeMustNotBe": "Time must not be in the future",
+    "videoUploadSuccessProcessing": "Video upload success, processing initiated",
+    "failedToUploadMeeting": "Failed to upload meeting",
+    "summarizeMeetingAudioOr": "Summarize Meeting Audio or Video",
+    "uploadFile": "Upload File",
+    "addLink": "Add Link",
+    "linkToAMeeting": "Link to a meeting recording",
+    "enterASupportedLinkPlaceholder": "Enter a supported link",
+    "linkMustBe512": "Link must be 512 characters or fewer",
+    "pleaseEnterAValid": "Please enter a valid URL",
+    "mustBeFromA": "Must be from a supported site (Zoom, Teams, Meeting, AWS). Need Help?",
+    "meetingDate": "Meeting Date",
+    "meetingTime": "Meeting Time",
+    "n1230pmPlaceholder": "12:30PM",
+    "title": "Title",
+    "yourMeetingTitlePlaceholder": "Your meeting title",
+    "category": "Category",
+    "chooseCategoryPlaceholder": "Choose Category",
+    "summarize": "Summarize"
+  },
+  "summarizeDocument": {
+    "summarizeADocument": "Summarize a Document",
+    "uploadFile": "Upload File",
+    "fileName": "File Name",
+    "yourFileNamePlaceholder": "Your file name",
+    "pleaseResolveTheRequired": "Please resolve the required fields",
+    "summarize": "Summarize"
+  },
+  "summarizeMenu": {
+    "audioVideo": "Audio & Video",
+    "document": "Document",
+    "earningsCall": "Earnings Call",
+    "slackChannels": "Slack Channels",
+    "teamsChannels": "Teams Channels",
+    "manageUploads": "Manage Uploads",
+    "forwardEmailTo": "Forward email to",
+    "feedForaDay": "feed@fora.day",
+    "forwardEmailsToFeed": "Forward emails to feed@fora.day to generate private summaries (including attachments). Summaries appear in Recent Summaries under 'Email Thread'",
+    "summarize": "Summarize"
+  },
+  "aboutThisLens": {
+    "competitiveIntelligence": "Competitive Intelligence"
+  },
+  "insightMetadata": {
+    "foraInsightFor": "FORA Insight for {{name}}",
+    "thisInsightPageHas": "This insight page has been created for you based on your customized settings. Followers of this lens will receive their own personalized insights.",
+    "sources": "{{length}} sources"
+  },
+  "insightSourceCard": {
+    "untitledChannel": "Untitled Channel"
+  },
+  "lensCardMenu": {
+    "youAreNowFollowing": "You are now following this lens",
+    "youAreNoLonger": "You are no longer following this lens",
+    "editLensSettings": "Edit Lens Settings",
+    "deactivateLens": "Deactivate Lens",
+    "reactivateLens": "Reactivate Lens",
+    "viewLensDetails": "View Lens Details",
+    "followLens": "Follow Lens",
+    "youWereAddedAs": "You were added as a collaborator on this lens. Please reach out to the creator to unfollow.",
+    "unfollowLens": "Unfollow Lens"
+  },
+  "lensCard": {
+    "youDoNotCurrently": "You do not currently have any insights for this lens.",
+    "untitledLens": "Untitled Lens",
+    "unset": "Unset"
+  },
+  "lensMeta": {
+    "thisPageOfInsights": "This page of insights was generated for ",
+    "accordingToSPersonalization": " according to {{first_name}}'s personalization settings. ",
+    "wasCreatedBy": " was created by "
+  },
+  "newInsightRightRail": {
+    "aboutThisLens": "About This Lens"
+  },
+  "addForaModal": {
+    "addForaToThis": "Add Fora to this meeting",
+    "category": "Category",
+    "addFora": "Add Fora"
+  },
+  "createMeetingModal": {
+    "somethingWentWrongWhile": "Something went wrong while creating meeting. Please try again.",
+    "addForaToA": "Add FORA to a Meeting",
+    "addLink": "Add Link",
+    "conferenceLinkPlaceholder": "Conference Link",
+    "pleaseEnterAValid": "Please enter a valid videoconferencing link.",
+    "meetingName": "Meeting Name",
+    "meetingNamePlaceholder": "Meeting Name",
+    "pleaseEnterAMeeting": "Please enter a meeting title.",
+    "meetingCategory": "Meeting Category",
+    "chooseCategoryPlaceholder": "Choose Category",
+    "pleaseSelectAMeeting": "Please select a meeting category.",
+    "addFora": "Add FORA",
+    "whenYouAddFora": "When you add FORA to a meeting, it will join the meeting and start taking notes.",
+    "meetingTitle": "Meeting Title",
+    "videoconferencingLink": "Videoconferencing Link",
+    "to": "to",
+    "meetingTypePlaceholder": "Meeting Type",
+    "pleaseSelectAMeeting2": "Please select a meeting type.",
+    "cancel": "Cancel"
+  },
+  "meetingSummary": {
+    "thisIsACurated": "This is a curated summary based on ",
+    "deleteSummary": "Delete Summary?",
+    "areYouSureYou": "Are you sure you want to delete your custom summary?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "relevantLenses": {
+    "viewMore": "View More"
+  },
+  "shareMeetingModal": {
+    "successfullySharedMeeting": "Successfully shared meeting",
+    "sendTo": "Send to...",
+    "share": "Share",
+    "shareSummary": "Share Summary"
+  },
+  "timeline": {
+    "noSummaryOrTranscript": "No Summary or Transcript",
+    "foraDidNotAttend": "Fora did not attend this meeting so it was unable to generate a transcript or summary."
+  },
+  "transcripts": {
+    "resumeRecording": "Resume Recording"
+  },
+  "orgChart": {
+    "supportForaDay": "support@fora.day",
+    "options": "Options",
+    "share": "Share",
+    "viewProfile": "View Profile",
+    "seeMore": "See More"
+  },
+  "organizationStatsInline": {
+    "hasHad": " has had ",
+    "withYourCompany": "with your company"
+  },
+  "earningsCallPdf": {
+    "earningsCallSummary": "Earnings Call Summary",
+    "meetingTimeline": "Meeting Timeline"
+  },
+  "meetingPdf": {
+    "meetingSummary": "Meeting Summary",
+    "potentialFollowups": "Potential Followups",
+    "meetingTimeline": "Meeting Timeline"
+  },
+  "pdfBrandingFooter": {
+    "foraConnectedIntelligenceAt": "Fora: Connected Intelligence at Work. ",
+    "thisMeetingSummaryGives": "This meeting summary gives a glimpse of what’s possible with FORA —",
+    "insightsTailoredToYour": "insights tailored to your goals and a suite of capabilities built for forward-thinking leaders. ",
+    "learnMore": "Learn More →"
+  },
+  "employmentHistoryPosition": {
+    "current": "Current"
+  },
+  "personCard": {
+    "salesforce": "Salesforce"
+  },
+  "personInternalExternalChart": {
+    "meetings": "Meetings"
+  },
+  "personRecentMeetingSummaries": {
+    "recentMeetingSummaries": "Recent Meeting Summaries",
+    "viewMore": "View more",
+    "private": "Private",
+    "today": "Today",
+    "notRecorded": "Not recorded"
+  },
+  "personStatsInline": {
+    "from": "from",
+    "hasHad": " has had ",
+    "withYourCompany": "with your company"
+  },
+  "recentlyMetWith": {
+    "viewTop": "View Top {{PEOPLE_ORG_STATS_PAGE_SIZE}}"
+  },
+  "viewsMenuList": {
+    "views": "VIEWS",
+    "view": "view",
+    "views2": "views",
+    "person": "person",
+    "people": "people",
+    "recentViewsFromSharing": "RECENT VIEWS FROM SHARING"
+  },
+  "pulseDeck": {
+    "nextPulse": "Next Pulse",
+    "previousPulse": "Previous Pulse",
+    "items": "{{count}} Items"
+  },
+  "pulseLaunchButton": {
+    "launchPulse": "Launch Pulse",
+    "launchPulseAriaLabel": "Launch Pulse"
+  },
+  "pulsePill": {
+    "levelOfEngagementAlt": "Level of Engagement"
+  },
+  "readOnlyMeetingCard": {
+    "live": "LIVE",
+    "followLive": "Follow Live",
+    "joinWith": "Join with {{meetingPlatform}}",
+    "viewSummary": "View Summary",
+    "noSummary": "No Summary"
+  },
+  "cardSearchModalContent": {
+    "hide": "Hide",
+    "show": "Show",
+    "copyAriaLabel": "Copy",
+    "iSeemToHave": "I seem to have encountered an error. Please try again.",
+    "dismiss": "dismiss"
+  },
+  "cardSearchModal": {
+    "clear": "Clear",
+    "searchMeetingSummaries": "Search Meeting Summaries",
+    "askMeToHelp": "Ask me to help you find specific meeting summaries or content from your meetings."
+  },
+  "addCalendarButton": {
+    "addCalendar": "Add Calendar"
+  },
+  "addTickerModal": {
+    "subscribeToEarningsCalls": "Subscribe to Earnings Calls",
+    "addStockTickersFrom": "Add stock tickers from a major exchange (eg NYSE, NASDAQ) to give your team access to their earnings call summaries.",
+    "enterAStockTickerPlaceholder": "Enter a stock ticker",
+    "startingDateOptional": "Starting Date (Optional)",
+    "ifYouNeedSummaries": "If you need summaries for more than two years’ worth of earnings calls, please contact support.",
+    "ifYouDonT": "If you don’t specify a date, FORA will generate a summary of the most recent earnings call and all future earnings calls.",
+    "subscribe": "Subscribe"
+  },
+  "deactivateTemplateModal": {
+    "deleteTemplatePermanently": "Delete Template Permanently?",
+    "ifYouDeleteThis": "If you delete this template, you will no longer be able to access it or apply it to any meeting. However, meetings where the template has already been applied will remain unaffected.",
+    "cancel": "Cancel",
+    "deletePermanently": "Delete Permanently"
+  },
+  "labelForm": {
+    "titleIsAlreadyIn": "Title is already in use.",
+    "noteEditingAndDeleting": "Note: Editing and deleting labels only applies to future content. The previous label will remain on existing content.",
+    "pleaseProvideDetailsAbout": "Please provide details about this label so FORA can match content with it more effectively.",
+    "title": "Title",
+    "chars": "{{length}} / {{maxChars}} chars",
+    "enterALabelNamePlaceholder": "Enter a label name",
+    "description": "Description",
+    "howShouldForaInterpret": "How should FORA interpret this label?",
+    "enterADescriptionPlaceholder": "Enter a description",
+    "internalVsExternal": "Internal vs. External",
+    "shouldForaApplyThis": "Should FORA apply this to internal or external content?",
+    "save": "Save",
+    "create": "Create"
+  },
+  "manageUploadsTable": {
+    "type": "Type",
+    "name": "Name",
+    "date": "Date",
+    "status": "Status",
+    "link": "Link"
+  },
+  "myAccount": {
+    "invalidCredentials": "Invalid Credentials",
+    "newPasswordHasInvalid": "New Password Has Invalid Pattern",
+    "changePassword": "Change Password",
+    "currentPasswordPlaceholder": "Current Password",
+    "newPasswordPlaceholder": "New Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "save": "Save"
+  },
+  "userForm": {
+    "notePleaseVisitYour": "Note: Please visit your Google Workspace or Microsoft Entra page to edit user information.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "title": "Title",
+    "departments": "Departments",
+    "manager": "Manager",
+    "departmentsPlaceholder": "Departments",
+    "managerPlaceholder": "Manager",
+    "active": "Active",
+    "selectUserTypePlaceholder": "Select User Type",
+    "pleaseSelectAUser": "Please select a user type.",
+    "submit": "Submit",
+    "submitting": "Submitting"
+  },
+  "shareTypeRadioGroup": {
+    "shareViaWeb": "Share via web"
+  },
+  "mobileAgenda": {
+    "today": "Today",
+    "people": "People",
+    "orgs": "Orgs"
+  },
+  "hubspotCallbackPage": {
+    "hubspotConnectedSuccessfully": "HubSpot connected successfully.",
+    "somethingWentWrongYou": "Something went wrong. You might already have HubSpot connected.",
+    "connectingToHubspot": "Connecting to HubSpot...",
+    "thisUsuallyTakesA": "This usually takes a few seconds. Please keep this window open.",
+    "syncContactsAndCompanies": "Sync contacts and companies",
+    "logMeetingsToDeal": "Log meetings to deal records",
+    "keepNotesUpTo": "Keep notes up to date automatically"
+  },
+  "oktaCallbackWebPage": {
+    "connectingToOkta": "Connecting to Okta..."
+  },
+  "ringcentralCallbackPage": {
+    "ringcentralConnectedSuccessfully": "RingCentral connected successfully.",
+    "somethingWentWrongYou": "Something went wrong. You might already have RingCentral connected.",
+    "connectingToRingcentral": "Connecting to RingCentral..."
+  },
+  "teamsCallbackPage": {
+    "microsoftTeamsConnectedSuccessfully": "Microsoft Teams Connected Successfully.",
+    "connectingToTeams": "Connecting to Teams...",
+    "failedToConnectFora": "Failed to Connect Fora to Microsoft Teams"
+  },
+  "alertSection": {
+    "openAllToastVariants": "Open all Toast Variants/Statuses",
+    "thisIsAAlert": "This is a {{status}} alert with {{variant}} variant"
+  },
+  "componentTestingPage": {
+    "componentTesting": "Component Testing"
+  },
+  "customComponentsSection": {
+    "personPreview": "Person Preview",
+    "small": "Small",
+    "default": "Default",
+    "large": "Large",
+    "xl": "xl",
+    "n2xl": "2xl",
+    "wWrap": "w/ Wrap",
+    "wBadge": "w/ Badge",
+    "tableOfContents": "Table Of Contents",
+    "navigationTabs": "Navigation Tabs",
+    "overview": "Overview",
+    "people": "People",
+    "orgs": "Orgs",
+    "documentIcons": "Document Icons",
+    "banner": "Banner"
+  },
+  "formFieldsSection": {
+    "input": "Input",
+    "smPlaceholder": "sm",
+    "formInputCustomSm": "Form Input (custom sm)",
+    "mdPlaceholder": "md",
+    "formInputCustomMd": "Form Input (custom md)",
+    "lgPlaceholder": "lg",
+    "formInputCustomLg": "Form Input (custom lg)",
+    "selectDropdown": "Select/Dropdown",
+    "customSelect": "Custom Select",
+    "shouldBeTheDefault": "Should be the default Select component moving forward in almost all cases.",
+    "customselectExample1SmPlaceholder": "CustomSelect Example 1 sm",
+    "customselectExample1MdPlaceholder": "CustomSelect Example 1 md",
+    "customselectExample1LgPlaceholder": "CustomSelect Example 1 lg",
+    "customselectExample2LgPlaceholder": "CustomSelect Example 2 lg",
+    "chakraDefaultSelect": "Chakra Default Select",
+    "usedOnlyInA": "Used only in a few older situations",
+    "createLensFormDuration": "Create Lens Form - Duration",
+    "createMeetingModalCategory": "Create Meeting Modal - Category (Old?)",
+    "manualDigestPageFor": "Manual Digest Page - For Slack verification, can remove?",
+    "settingsUserSettingsTimezone": "Settings - User Settings - Timezone",
+    "defaultChakraSelectOutlinePlaceholder": "Default Chakra Select (outline)",
+    "defaultChakraSelectFilledPlaceholder": "Default Chakra Select (filled)",
+    "styledSelect": "Styled Select",
+    "customChakraMenuComponentPlaceholder": "Custom Chakra Menu Component",
+    "radio": "Radio",
+    "xsRadio": "XS Radio",
+    "smRadio": "SM Radio",
+    "mdRadio": "MD Radio",
+    "lgRadio": "LG Radio",
+    "xlRadio": "XL Radio",
+    "checkbox": "Checkbox",
+    "smCheckbox": "SM Checkbox",
+    "mdCheckbox": "MD Checkbox",
+    "lgCheckbox": "LG Checkbox",
+    "switch": "Switch",
+    "smSwitch": "SM Switch",
+    "mdSwitch": "MD Switch",
+    "lgSwitch": "LG Switch",
+    "menu": "Menu",
+    "baseVariant": "Base Variant",
+    "selectVariant": "Select Variant",
+    "technicallyAMenuComponenPlaceholder": "Technically a Menu Componen, Not Select",
+    "meetingMenuScrumExample": "Meeting Menu (Scrum Example)",
+    "fakeItem1": "Fake Item 1",
+    "fakeItem2Is": "Fake Item 2 Is This One",
+    "fakeItem3Of": "Fake Item 3 of Regular List",
+    "fakeOptionGroup": "Fake Option Group",
+    "fakeOptionItem1": "Fake Option Item 1",
+    "fakeOptionItem2": "Fake Option Item 2",
+    "fakeOptionItem3": "Fake Option Item 3"
+  },
+  "generalSection": {
+    "divider": "Divider",
+    "avatar": "Avatar",
+    "tag": "Tag",
+    "labelVariantForForms": "Label Variant for Forms",
+    "brand": "Brand",
+    "caution": "Caution",
+    "critical": "Critical",
+    "solid": "Solid",
+    "subtle": "Subtle",
+    "new": "New",
+    "howdyPartner": "Howdy Partner"
+  },
+  "tableSection": {
+    "channels": "Channels",
+    "columnSorting": "Column Sorting",
+    "defaultTheming": "Default Theming",
+    "pagination": "Pagination",
+    "columnFiltering": "Column Filtering",
+    "expandableRows": "Expandable Rows",
+    "actionColumns": "Action Columns",
+    "customCellTemplates": "Custom Cell Templates",
+    "cards": "Cards"
+  },
+  "textSection": {
+    "textVariants": "Text Variants",
+    "headingSizes": "Heading Sizes",
+    "headingSize": "{{sizeName}} Heading Size",
+    "headingVariants": "Heading Variants",
+    "headingVariant": "{{variantName}} Heading Variant"
+  },
+  "tokenPaletteSection": {
+    "general": "General",
+    "brand": "Brand",
+    "statusStates": "Status / States",
+    "tags": "Tags"
+  },
+  "digestPage": {
+    "editDigestButtonAriaLabel": "edit digest button"
+  },
+  "manualDigestPage": {
+    "summarizeSlackChannels": "Summarize Slack Channels",
+    "noteDependingOnThe": "Note: Depending on the number of channels and length of time selected, this could take up to 15 minutes.",
+    "channels": "Channels",
+    "max3": "(max 3)",
+    "selectChannelsToSummarizePlaceholder": "Select Channels to Summarize",
+    "startTime": "Start Time",
+    "to": "to",
+    "endTime": "End Time",
+    "createSlackSummary": "Create Slack Summary",
+    "summary": "Summary:"
+  },
+  "earningsCallHeaderMenu": {
+    "manageEarningsCallSubscriptions": "Manage earnings call subscriptions",
+    "transcript": "Transcript",
+    "earningsCallCategory": "Earnings Call Category"
+  },
+  "shareEarningsCallModal": {
+    "successfullySharedEarningsCall": "Successfully shared earnings call",
+    "somethingWentWrongWhile": "Something went wrong while sharing earnings call. Please try again.",
+    "sendTo": "Send to...",
+    "share": "Share",
+    "shareSummary": "Share Summary",
+    "previewSharedSummary": "Preview Shared Summary"
+  },
+  "featureGateDetailsPage": {
+    "featureGateDetails": "Feature Gate Details",
+    "viewAndMonitorAll": "View and monitor all feature gates across the application. The table below shows detailed information about each feature flag, including status, activity, and configuration. Expand rows to see rules, conditions, and additional metadata."
+  },
+  "focusesPage": {
+    "categories": "Categories",
+    "searchCategoriesPlaceholder": "Search Categories",
+    "addACategoryTo": "Add a category (+) to get started.",
+    "toAddTheFirst": "To add the first category, contact your Admin."
+  },
+  "foraTestingPage": {
+    "foraInternalTestingPages": "Fora Internal Testing Pages",
+    "thisPageProvidesAccess": "This page provides access to all internal testing tools and pages used for development and debugging. These pages are only accessible to Fora employees.",
+    "componentTesting": "Component Testing",
+    "testAndPreviewUi": "Test and preview UI components including color tokens, buttons, form fields, custom components, and other UI elements used throughout the application.",
+    "rollbarTesting": "Rollbar Testing",
+    "testRollbarReportingManual": "Test Rollbar reporting (manual, API interceptor) and component error boundaries, including automatic wrapping and manual HOC usage.",
+    "featureGateDetails": "Feature Gate Details",
+    "viewAndMonitorAll": "View and monitor all feature gates across the application, including their status, description, and configuration details. Useful for debugging feature flag related issues.",
+    "inFluxFeatures": "In-Flux Features",
+    "testAndPreviewFeatures": "Test and preview features that are currently in development but not yet released, including Pulses and other experimental features."
+  },
+  "guestMeetingsPage": {
+    "guest": "Guest",
+    "sharedMeetings": "Shared Meetings",
+    "filters": "Filters"
+  },
+  "homePage": {
+    "latest": "Latest",
+    "yesterday": "Yesterday",
+    "live": "Live",
+    "recent": "Recent",
+    "weRePersonalizingThis": "We're personalizing this page for you.",
+    "foraIsAnalyzingYour": "FORA is analyzing your organizational data to create personalized insights for you.",
+    "checkBackIn24": "Check back in 24 hours to view your first updates.",
+    "createALens": "create a Lens",
+    "followLenses": "follow Lenses",
+    "welcomeToFora": "Welcome to FORA!",
+    "createALens2": "Create a Lens"
+  },
+  "createLensPage": {
+    "createLens": "Create Lens",
+    "review": "Review"
+  },
+  "editLensPage": {
+    "editLens": "Edit Lens",
+    "review": "Review"
+  },
+  "lensInsightPage": {
+    "youDoNotHave": "You do not have access to this page.",
+    "thisArticleHasAn": "This article has an update",
+    "share": "Share",
+    "yourInformationIsSecure": "Your information is secure",
+    "privateMeetingsAreOnly": "Private meetings are only visible to invitees of those meetings. Other lens followers will not see data from those meetings.",
+    "insightMenuAriaLabel": "Insight Menu",
+    "conclusion": "Conclusion",
+    "priorUpdates": "Prior {{title}} Updates"
+  },
+  "lensesPage": {
+    "lenses": "Lenses",
+    "yourLenses": "Your Lenses",
+    "following": "Following",
+    "notFollowing": "Not Following",
+    "yourOrganizationSLenses": "Your Organization's Lenses",
+    "createANewOne": "Create a new one",
+    "here": "here",
+    "createALens": "Create a Lens",
+    "newLens": "New Lens",
+    "whatKindOfLens": "What kind of lens would you like to create?"
+  },
+  "guestLoginPage": {
+    "sharedAMeetingSummary": "{{senderName}} shared a meeting summary with you:",
+    "connectYourAccountTo": "Connect your account ({{guestEmail}}) to view the summary:"
+  },
+  "loginPage": {
+    "logoAlt": "logo",
+    "orContinueWith": "Or continue with",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "showPwAriaLabel": "Show PW"
+  },
+  "oauthStack": {
+    "oktaLogoAlt": "Okta Logo"
+  },
+  "oktaLoginIdpPage": {
+    "connectingToOkta": "Connecting to Okta..."
+  },
+  "oktaLoginPage": {
+    "emailAddress": "Email Address",
+    "enterYourEmailAddressPlaceholder": "Enter your email address",
+    "invalidEmailAddress": "Invalid email address",
+    "oktaLogoAlt": "Okta Logo"
+  },
+  "logoutPage": {
+    "logoutSuccessful": "Logout Successful",
+    "errorDuringLogout": "Error during logout",
+    "loggingOut": "Logging out..."
+  },
+  "meetingPrepSection": {
+    "organizer": "Organizer",
+    "internal": "Internal",
+    "external": "External",
+    "organizations": "Organizations"
+  },
+  "mobileMeetingPage": {
+    "meetingSummary": "Meeting Summary",
+    "people": "People",
+    "organizations": "Organizations"
+  },
+  "personalSummarySection": {
+    "sharedSummary": "Shared Summary"
+  },
+  "videoThumbnail": {
+    "videoThumbnailAlt": "video thumbnail",
+    "foraLogoAlt": "Fora logo"
+  },
+  "yourSummary": {
+    "copySummary": "Copy Summary"
+  },
+  "readOnlyFeedPage": {
+    "yourMeetings": "Your Meetings",
+    "enterKeywordsPlaceholder": "Enter keywords"
+  },
+  "reskinSummariesPage": {
+    "recentUpdates": "Recent Updates",
+    "filteredResults": "Filtered Results",
+    "filters": "Filters"
+  },
+  "rollbarTestingPage": {
+    "thisErrorShouldBe": "This error should be caught by its Error Boundary. Check Rollbar for context.",
+    "triggerRenderError": "Trigger Render Error",
+    "thisIsATest": "This is a test payload.",
+    "unexpectedSuccess": "Unexpected Success!",
+    "sanitizationTestTriggered": "Sanitization Test Triggered",
+    "checkRollbarForA": "Check Rollbar for a comprehensive API error with sanitized sensitive data.",
+    "axiosInterceptorReporting": "Axios Interceptor Reporting",
+    "apirequestmethod": "apiRequestMethod",
+    "apiurl": "apiUrl",
+    "isapierrorTrue": "isApiError: true",
+    "triggerGet404": "Trigger GET 404",
+    "triggerGet500Requires": "Trigger GET 500 (Requires Backend Setup)",
+    "triggerPost404With": "Trigger POST 404 (with Payload/Headers)",
+    "testComprehensiveSanitization": "Test Comprehensive Sanitization",
+    "sendsARequestWith": "Sends a request with extensive sensitive data patterns to verify sanitization logic",
+    "apiCallFailedIn": "(API call failed in component, as expected. See console/Rollbar for interceptor report.)",
+    "manualRollbarErrorSent": "Manual Rollbar Error Sent",
+    "checkRollbarForManual": "Check Rollbar for \"Manual Rollbar Test Error\".",
+    "manualReporting": "Manual Reporting (",
+    "rollbarError": "rollbar.error()",
+    "userollbar": "useRollbar",
+    "triggerManualReport": "Trigger Manual Report",
+    "triggeringRenderErrorIn": "Triggering Render Error in Excluded Loader",
+    "thisErrorMightCrash": "This error might crash the app if no higher boundary exists! Check Rollbar.",
+    "errorThrowingLoaderTest": "Error-Throwing Loader Test",
+    "thisFakeLoaderComponent": "This fake loader component will throw an error to demonstrate that excluded loader components don't have error boundaries by default. Clicking the button below should crash the application unless a higher-level boundary catches it.",
+    "triggerErrorInLoader": "Trigger Error in Loader",
+    "rollbarErrorBoundaryTesting": "Rollbar & Error Boundary Testing",
+    "testVariousRollbarReporting": "Test various Rollbar reporting mechanisms and React component error boundary behaviors.",
+    "directRollbarReporting": "Direct Rollbar Reporting",
+    "componentErrorBoundaries": "Component Error Boundaries",
+    "verifyReactComponentRender": "Verify React component render errors are caught by boundaries, preventing page crashes. Errors caught here should include additional React context (component name, props, etc.) in Rollbar.",
+    "boundaryImplementationMethods": "Boundary Implementation Methods",
+    "n1AutomaticWrappingPlugin": "1. Automatic Wrapping (Plugin)",
+    "autoplugintestcomponent": "AutoPluginTestComponent",
+    "n2AutomaticWrappingNo": "2. Automatic Wrapping (No Import)",
+    "autowrappedtest": "AutoWrappedTest",
+    "n3ManualWrappingDirect": "3. Manual Wrapping (Direct Usage)",
+    "errorboundarywrapper": "<ErrorBoundaryWrapper>",
+    "errorthrowingcomponent": "ErrorThrowingComponent",
+    "n4ManualWrappingHoc": "4. Manual Wrapping (HOC)",
+    "witherrorboundary": "withErrorBoundary()",
+    "excludedComponents": "Excluded Components",
+    "errorthrowingloader": "ErrorThrowingLoader",
+    "meetingcardskeleton": "MeetingCardSkeleton",
+    "threedotloader": "ThreeDotLoader",
+    "loadingscreen": "LoadingScreen",
+    "componentOmittedForVisibility": "(Component omitted for visibility)"
+  },
+  "timezoneSection": {
+    "successfullyUpdatedUserTimezone": "Successfully Updated User Timezone",
+    "somethingWentWrongWhile": "Something went wrong while updating your timezone. Please try again.",
+    "selectTimezonePlaceholder": "Select timezone"
+  },
+  "analyticsPage": {
+    "attendedMeetings": "Attended Meetings",
+    "thisTableShowsAll": "This table shows all meetings that Fora has attended.",
+    "updated5MinAgo": "Updated 5 min ago",
+    "failedBots": "Failed Bots",
+    "thisTableShowsThe": "This table shows the details around Fora bots failing."
+  },
+  "earningsCallsPage": {
+    "yourCompanyIsNot": "Your company is not currently subscribed to any Earnings Calls. Please click the Add Ticker button above to subscribe to Earnings Calls",
+    "name": "Name",
+    "lastUpdated": "Last Updated",
+    "nextCall": "Next Call",
+    "stockTickerOptions": "STOCK TICKER OPTIONS",
+    "unsubscribeYourCompanyFrom": "Unsubscribe your company from ticker",
+    "earningsCalls": "Earnings Calls",
+    "addTicker": "Add Ticker",
+    "items": "{{length}} items",
+    "searchPlaceholder": "Search",
+    "theUnsubscribedTabIs": "The Unsubscribed tab is not yet implemented."
+  },
+  "emailSubscriptionsPage": {
+    "successfullyUpdatedEmailSubscriptions": "Successfully Updated Email Subscriptions",
+    "somethingWentWrongWhile": "Something went wrong while updating email subscriptions. Please try again.",
+    "successfullyUpdatedUserTimezone": "Successfully Updated User Timezone",
+    "somethingWentWrongWhile2": "Something went wrong while updating your timezone. Please try again.",
+    "userTimezone": "User Timezone:",
+    "selectTimezonePlaceholder": "Select timezone",
+    "foraMorningPrep": "FORA Morning Prep",
+    "helpsYouPrepareFor": "Helps you prepare for your day",
+    "foraEndOfDay": "FORA End-of-Day Summary",
+    "reviewRecentlySummarizedInformation": "Review recently summarized information",
+    "save": "Save",
+    "deliverDailyAt": "Deliver daily at"
+  },
+  "manageDigestsPage": {
+    "source": "Source",
+    "name": "Name",
+    "frequency": "Frequency",
+    "dateCreated": "Date Created"
+  },
+  "manageLabelsPage": {
+    "name": "Name",
+    "createdBy": "Created By",
+    "dateCreated": "Date Created",
+    "addLabel": "Add Label",
+    "deletingThisLabelWon": "Deleting this label won't affect any meetings it was previously applied to. However, users will no longer be able to apply it to meetings. Are you sure you want to delete it?"
+  },
+  "manageTemplatesPage": {
+    "templateDeletedSuccessfully": "Template deleted successfully.",
+    "couldNotDeleteTemplate": "Could not delete template. Please try again.",
+    "name": "Name",
+    "dateCreated": "Date Created",
+    "items": "{{length}} Items"
+  },
+  "manageUsersPage": {
+    "manageUsers": "Manage Users",
+    "newUser": "New User"
+  },
+  "recordingPage": {
+    "doNotRecordList": "Do Not Record List",
+    "blacklistVariousMeetingsFrom": "Blacklist various meetings from getting recorded based on various rules. Meetings previously scheduled to record are not affected when you update this list, but you are able to unschedule any individual recording by navigating to the meeting page for that recording.",
+    "ifYouWouldLike": "If you would like to unschedule a large number of meetings, please reach out to support@fora.day.",
+    "excludeTitles": "Exclude titles",
+    "doNotRecordMeetings": "Do not record meetings that contain these words in the title:",
+    "excludeDomains": "Exclude domains",
+    "doNotRecordMeetings2": "Do not record meetings that have at least 1 participant from these domains:",
+    "keyWords": "Key Words",
+    "wordsListedHereWill": "Words listed here will be \"boosted\" by FORA during meeting transcription, causing them to appear more consistently",
+    "save": "Save",
+    "add": "Add"
+  },
+  "settingsPage": {
+    "oktaLogoAlt": "Okta Logo",
+    "yourProfileSettings": "Your Profile Settings",
+    "reviewAndAddSettings": "Review and add settings to get the most out of FORA.",
+    "userPrompt": "User Prompt",
+    "trainForaToUnderstand": "Train FORA to understand you by providing a description of your role and the kinds of summaries & insights you're looking for.",
+    "dataSources": "Data Sources",
+    "manageExternalSourcesOf": "Manage external sources of information and reports.",
+    "manageLabels": "Manage Labels",
+    "addManageLabelsFor": "Add & manage labels for your company.",
+    "categories": "Categories",
+    "helpForaCategorizeMeetings": "Help FORA categorize meetings.",
+    "manageUsers": "Manage Users",
+    "addRemoveUsers": "Add & remove users.",
+    "analytics": "Analytics",
+    "viewDataOnFora": "View data on FORA usage",
+    "signInSecurity": "Sign-In & Security",
+    "secureYourAccountAnd": "Secure your account and update your password",
+    "calendar": "Calendar",
+    "addRemoveCalendarsAnd": "Add & remove calendars and manage calendar settings.",
+    "slackTeamsDigests": "Slack & Teams Digests",
+    "manageHowForaSummarizes": "Manage how FORA summarizes information from your organizations's Slack & Teams messages",
+    "emailSubscriptions": "Email Subscriptions",
+    "specifyWhichEmailSubscriptions": "Specify which email subscriptions you want to receive and when you want to receive them.",
+    "earningsCalls": "Earnings Calls",
+    "addStockTickersTo": "Add stock tickers to subscribe to earnings call summaries.",
+    "recording": "Recording",
+    "manageRecordingSettingsIncluding": "Manage recording settings including important keywords and meeting titles & domainsto exclude from recording.",
+    "zoomAdmin": "Zoom Admin",
+    "manageZoomAccountSettings": "Manage zoom account settings to improve the FORA recording experience",
+    "manageTemplates": "Manage Templates",
+    "manageYourSummaryTemplates": "Manage your summary templates",
+    "manageUploads": "Manage Uploads",
+    "manageYourUploadedMeetings": "Manage your uploaded meetings and documents",
+    "configureOkta": "Configure Okta",
+    "configureYourTenantFor": "Configure your tenant for login via Okta",
+    "componentTesting": "Component Testing",
+    "previewComponents": "Preview components",
+    "settings": "Settings",
+    "adminSettings": "Admin Settings"
+  },
+  "userPromptsPage": {
+    "arthurPhillips": "Arthur Phillips",
+    "experiencedTalentAcquisitionSpecialist": "Experienced talent acquisition specialist with experience recruiting candidates both in-house and agency in diverse verticals including Product Development, Enterprise, FinTech. Adept in Market Evaluation, Client Relations, Team Leadership.",
+    "viewOnLinkedin": "View on LinkedIn",
+    "contact": "Contact",
+    "editPrompt": "Edit Prompt",
+    "viewForaActivity": "View FORA activity",
+    "save": "Save"
+  },
+  "zoomSettingsPage": {
+    "zoomAccountNotConnected": "Zoom account not connected. Zoom must be authorized first",
+    "accountUpdatedSuccessfully": "Account updated successfully",
+    "accountSettings": "Account Settings",
+    "localRecording": "Local Recording",
+    "foraRequiresLocalRecording": "FORA requires local recording be enabled"
+  },
+  "tableHelpers": {
+    "search": "Search",
+    "reset": "Reset",
+    "close": "Close"
+  }
+}

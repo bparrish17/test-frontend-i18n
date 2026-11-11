@@ -1,0 +1,66 @@
+{
+  "id": "com.fora-pwa.day",
+  "scope": "/",
+  "name": "FORA",
+  "short_name": "FORA",
+  "start_url": "/",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "display": "standalone",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "description": "Artificial intelligence designed for the C-suite. Executives that will lead tomorrow are embracing AI today. Evolve your leadership with FORA ERM, a smarter approach to solving organizational challenges and cultivating richer relationships.",
+  "background_color": "#113281",
+  "theme_color": "#113281",
+  "dir": "ltr",
+  "lang": "en-US",
+  "features": ["Cross Platform", "Summarization", "Executive Insights"],
+  "categories": ["utilities", "productivity"],
+  "scope_extensions": [{ "origin": "*.fora.day" }, { "origin": "https://fora.day" }],
+  "edge_side_panel": {
+    "preferred_width": 200
+  },
+
+  "icons": [
+    {
+      "src": "/icons/android/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android/android-launchericon-512-512.png",
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "sizes": "480x640",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot2.png",
+      "sizes": "720x1280",
+      "form_factor": "narrow",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot3.png",
+      "sizes": "2560x1440",
+      "form_factor": "wide",
+      "type": "image/png"
+    }
+  ]
+}

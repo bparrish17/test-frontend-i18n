@@ -1,0 +1,70 @@
+name: Run Sonar Analysis
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - staging
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+jobs:
+  sonarcloud:
+    if: github.event.pull_request.draft == false
+    name: SonarCloud
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Get Changed Files
+        id: changed-files
+        uses: dorny/paths-filter@v2
+        with:
+          list-files: shell
+          filters: |
+            src:
+              - 'src/**/*.js'
+              - 'src/**/*.jsx'
+
+      - name: Set up coverage include flags for changed files
+        id: coverage-files
+        run: |
+          # Get the changed files from the paths-filter output
+          CHANGED_FILES="${{ steps.changed-files.outputs.src_files }}"
+
+          # Initialize the coverage flags string
+          COVERAGE_FLAGS=""
+
+          # Loop through each changed file and append to the coverage include flag
+          for file in $CHANGED_FILES; do
+            COVERAGE_FLAGS="$COVERAGE_FLAGS --coverage.include=$file"
+          done
+
+          # Output the coverage flags for debugging
+          echo "Coverage flags: $COVERAGE_FLAGS"
+
+          echo "COVERAGE_FLAGS=$COVERAGE_FLAGS" >> $GITHUB_ENV
+
+      - name: Run Tests with Coverage for Changed Files
+        if: steps.changed-files.outputs.src == 'true'
+        continue-on-error: true
+        run: |
+          # Get the coverage flags from the environment variable
+          COVERAGE_FLAGS="${{ env.COVERAGE_FLAGS }}"
+
+          # Run vitest with the coverage flags for each changed file
+          npx vitest --coverage --run $COVERAGE_FLAGS
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarqube-scan-action@v5.3.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

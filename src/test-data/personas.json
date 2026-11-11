@@ -1,0 +1,46 @@
+{
+    "CEO": {
+        "title": "Chief Executive Officer",
+        "description": "At FORA, the CEO finds information related to the following items especially important to their responsibilities:\n* fundraising\n* new features and designs\n* customer acquisition\n* sales forecast\n* macroeconomic indicators\n* strategic partnerships\n* the same information above about competitors and other technology companies"
+    },
+    "CRO": {
+        "title": "Chief Revenue Officer",
+        "description": "A Chief Revenue Officer (CRO) is a top-level executive responsible for overseeing all revenue-generating functions within a company, including sales, marketing, and customer success. The primary goal of a CRO is to optimize and drive revenue growth, ensuring that the company achieves its financial targets and maximizes profitability."
+    },
+    "CTO": {
+        "title": "Chief Technology Officer",
+        "description": "A Chief Technology Officer (CTO) is a top-level executive responsible for overseeing the development, implementation, and management of a company's technology strategy, infrastructure, and innovation efforts.\n\nAt FORA, the CTO finds information related to the following items especially important to their responsibilities:\n* engineering planning\n* new technologies\n* infrastructure\n* technical architecture\n* staffing\n* devops budgets"
+    },
+    "CHRO": {
+        "title": "Chief Human Resources Officer",
+        "description": "A Chief Human Resources Officer (CHRO) is a top-level executive responsible for overseeing the development and execution of a company's human resources (HR) strategy, policies, and practices. The primary goal of a CHRO is to ensure that the company attracts, retains, and develops the talent needed to achieve its strategic objectives while fostering a positive and inclusive work environment."
+    },
+    "CIO": {
+        "title": "Chief Information Officer",
+        "description": "A Chief Information Officer (CIO) is a top-level executive responsible for overseeing the management, implementation, and strategic planning of a company's information technology (IT) systems and infrastructure. The primary goal of a CIO is to ensure that the company's technology investments support its strategic objectives, improve efficiency, and provide a competitive advantage."
+    },
+    "COO": {
+        "title": "Chief Operating Officer",
+        "description": "A Chief Operating Officer (COO) is a top-level executive responsible for overseeing the day-to-day operations, processes, and management of a company. The primary goal of a COO is to ensure the efficient and effective functioning of the organization, enabling it to achieve its strategic objectives and maintain a competitive advantage."
+    },
+    "CPO": {
+        "title": "Chief Product Officer",
+        "description": "The Chief Product Officer (CPO) is responsible for ensuring that the good or service sold by the company produces value for the customer. In software, this means overseeing the development and maintenance of features offered by the application.\n\nAt FORA, the CPO finds information related to the following items especially important to their responsibilities:\n* feature ideas\n* customer feedback\n* user research\n* product performance metrics\n* roadmaps\n* demo planning\n"
+    },
+    "CMO": {
+        "title": "Chief Marketing Officer",
+        "description": "As Chief Marketing Officer (CMO), your boss is the highest-ranking marketing executive the company. They act as the ultimate decision maker for marketing and reports only to the CEO on material decisions. The CMO typically cannot attend most meetings due to their schedule but they need to be alerted of items discussed in meetings that would have significant impact on their key initiatives. The CMO should not be bothered with issues that are better handled by more junior executives."
+    },
+    "Designer": {
+        "title": "Designer",
+        "description": "The designer is responsible for the presentation of the product, both in terms of usability and aesthetic design.\n\nAt FORA, designers especially care about the following items:\n* information architecture\n* user experience\n* prototyping\n* mockups\n* wireframes\n* figma\n"
+    },
+    "Senior Frontend Engineer": {
+        "title": "Senior Frontend Engineer",
+        "description": "A Senior Frontend Engineer at a tech company is responsible for building, testing, and maintaining the client-facing portion of a web application. This is an advanced role, and as such denotes additional experience solving difficult engineering challenges.\n\nAt FORA, a frontend engineer especially cares about:\n* requirements\n* design\n* engineering spec\n* architecture"
+    },
+    "Junior Frontend Developer": {
+        "title": "Junior Frontend Developer",
+        "description": "A Junior Frontend Developer at a tech company is responsible for building, testing, and maintaining the client-facing portion of a web application.\n\nAt FORA, a frontend engineer especially cares about:\n* requirements\n* design\n* engineering spec\n* architecture"
+    }
+}

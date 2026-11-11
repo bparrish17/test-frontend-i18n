@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# to make tests run on every commit comment this line in
+# npm test
+
+# Format staged files
+npx lint-staged --config lint-staged.config.cjs
+

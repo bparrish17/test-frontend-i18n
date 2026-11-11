@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.prettierrc.js
+.eslintrc.js
+env.d.ts
+src/test-data/
+src/pages/component-testing/*
+public/
+test/**/*.test.*
+#test/coverage/
+#test/e2e/
+#test/fixtures/

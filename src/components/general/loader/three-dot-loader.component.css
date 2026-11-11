@@ -1,0 +1,41 @@
+.three-dot-loader {
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: transparent;
+  align-content: center;
+}
+
+.three-dot-loader .chakra-spinner {
+  margin: 0 10px 0 0;
+}
+
+.three-dot-loader > .dots {
+  margin: auto 3px;
+  opacity: 1;
+  height: 6px;
+  background-color: #c8d6e4;
+  border-radius: 3px;
+  animation: three-dot-loader 1s infinite alternate;
+  display: inline-block;
+}
+
+.three-dot-loader > .dots:nth-child(2) {
+  width: 60px;
+}
+
+.three-dot-loader > .dots:nth-child(3) {
+  width: 20px;
+  animation-delay: 0.33s;
+}
+
+.three-dot-loader > .dots:nth-child(4) {
+  width: 10px;
+  animation-delay: 0.66s;
+}
+
+@keyframes three-dot-loader {
+  to {
+    opacity: 0.5;
+  }
+}

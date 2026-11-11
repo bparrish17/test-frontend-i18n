@@ -1,0 +1,38 @@
+[[edge_functions]]
+  function = "og-card-transform"
+  path = "/cards/:id"
+
+[[edge_functions]]
+  function = "og-image"
+  path = "/og-image"
+
+[[edge_functions]]
+  function = "csp-header"
+  path = "/*"
+
+[dev]
+  autoLaunch = true
+  framework = "#auto"
+  command = "npm run dev:no-open"
+
+[[redirects]]
+  from = "https://staging.fora.day/api/*"
+  to = "https://api-dev.fora.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.fora.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"

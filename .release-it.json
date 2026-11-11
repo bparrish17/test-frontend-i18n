@@ -1,0 +1,25 @@
+{
+  "git": {
+    "commitMessage": "v${version}",
+    "tagName": "v${version}",
+    "commit": false,
+    "tag": false,
+    "push": false,
+    "requireCleanWorkingDir": false
+  },
+  "hooks": {
+    "before:init": ["echo 'Running release-it'"]
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": false
+    }
+  }
+}

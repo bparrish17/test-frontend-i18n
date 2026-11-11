@@ -1,0 +1,59 @@
+:root {
+  --calendar-agenda-margin: 60px;
+  --default-react-calendar-spacing: 16px;
+}
+
+.custom-calendar--agenda {
+  margin: var(--calendar-agenda-margin);
+  position: relative;
+}
+
+/* Removing the border for second month */
+.react-datepicker__month-container {
+  border: none;
+}
+
+/* Moving the navigation buttons to the left and right outside its default container */
+.react-datepicker__navigation {
+  position: absolute;
+  height: fit-content;
+  top: calc(50% - 20px);
+}
+
+.react-datepicker__navigation--previous {
+  left: calc(var(--calendar-agenda-margin) / -2 - var(--default-react-calendar-spacing));
+}
+
+.react-datepicker__navigation--next {
+  right: calc(var(--calendar-agenda-margin) / -2 - var(--default-react-calendar-spacing));
+}
+
+@media (max-width: 768px) {
+  .react-datepicker__month-container {
+    padding: 0;
+  }
+
+  .custom-day,
+  .react-datepicker__day-name {
+    border-radius: 32px;
+    padding-top: 8px;
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .custom-calendar--agenda {
+    margin: 0;
+    border-radius: 16px;
+  }
+
+  .react-datepicker__navigation--previous {
+    left: 32px;
+    top: 32px;
+  }
+
+  .react-datepicker__navigation--next {
+    right: 32px;
+    top: 32px;
+  }
+}

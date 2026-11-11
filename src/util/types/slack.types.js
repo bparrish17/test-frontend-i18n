@@ -1,0 +1,35 @@
+/**
+ * @typedef {Object} SlackConversation
+ * @property {import("@slack/web-api/dist/types/response/AdminConversationsSearchResponse").ListsClass} canvas
+ * @property {string[]} channel_email_addresses
+ * @property {number} channel_manager_count
+ * @property {string[]} connected_limited_team_ids
+ * @property {string[]} connected_team_ids
+ * @property {string} context_team_id
+ * @property {string} conversation_host_id
+ * @property {number} created
+ * @property {string} creator_id
+ * @property {number} external_user_count
+ * @property {string} id
+ * @property {string[]} internal_team_ids
+ * @property {number} internal_team_ids_count
+ * @property {string} internal_team_ids_sample_team
+ * @property {boolean} is_archived
+ * @property {boolean} is_disconnect_in_progress
+ * @property {boolean} is_ext_shared
+ * @property {boolean} is_frozen
+ * @property {boolean} is_general
+ * @property {boolean} is_global_shared
+ * @property {boolean} is_org_default
+ * @property {boolean} is_org_mandatory
+ * @property {boolean} is_org_shared
+ * @property {boolean} is_pending_ext_shared
+ * @property {boolean} is_private
+ * @property {number} last_activity_ts
+ * @property {import("@slack/web-api/dist/types/response/AdminConversationsSearchResponse").ListsClass} lists
+ * @property {number} member_count
+ * @property {string} name
+ * @property {string[]} pending_connected_team_ids
+ * @property {Properties} properties
+ * @property {string} purpose
+ */

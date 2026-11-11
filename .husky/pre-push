@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Define the regex pattern for branch names
+BRANCH_REGEX="^FORA-[0-9]+(-[a-zA-Z0-9._-]+)?$"
+
+# Get the current branch name
+CURRENT_BRANCH=$(git symbolic-ref --short HEAD)
+
+# Check if the branch name matches the regex pattern
+if ! echo "$CURRENT_BRANCH" | grep -Eq "$BRANCH_REGEX"; then
+  echo "Error: Branch name '$CURRENT_BRANCH' does not follow the naming convention."
+  echo "Branch names should follow the pattern: $BRANCH_REGEX"
+  echo "AKA: FORA-1234 or FORA-1234-branch-name"
+  exit 1
+fi
+
+# Get list of changed files
+# CHANGED_FILES=$(git diff --name-only origin/dev...HEAD)
+
+# Run linting only on changed files
+# if [ -n "$CHANGED_FILES" ]; then
+#   echo "Running lint on changed files..."
+#   npx eslint $CHANGED_FILES --ext .js --ext .jsx --config .eslintrc.cjs --resolve-plugins-relative-to ./node_modules --ignore-pattern node_modules --ignore-pattern dist --ignore-pattern build --ignore-pattern public --max-warnings 0
+# fi
+
+# Run strict linting before pushing
+npx eslint . --ext .js --ext .jsx --config .eslintrc.cjs --resolve-plugins-relative-to ./node_modules --ignore-pattern node_modules --ignore-pattern dist --ignore-pattern build --ignore-pattern public --ignore-pattern test --max-warnings 0

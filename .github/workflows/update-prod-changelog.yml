@@ -1,0 +1,83 @@
+name: 'Production Changelog Update'
+
+on:
+  repository_dispatch:
+    types: [update-changelog]
+
+jobs:
+  production_release:
+    name: Create Production Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Use the same static cache key as dev workflow
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: |
+            node_modules
+            ~/.npm
+          key: changelog-deps-v2
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install --no-save axios date-fns date-fns-tz release-it @release-it/conventional-changelog @octokit/rest @slack/web-api
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: Run release:prod
+        env:
+          BRANCH_NAME: app
+          JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+        run: npm run release:prod
+
+      - name: Get version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
+
+      - name: Commit changes
+        run: |
+          git add --all
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git diff --staged --name-status
+            git commit -m "chore: update changelog for production release v${{ steps.package-version.outputs.current-version }}"
+          fi
+      - name: Push to app
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/summarizator/fora-frontend.git
+          git push --follow-tags origin app
+      - name: Find source maps
+        id: find-source-maps
+        run: |
+          SOURCE_MAPS=$(find dist/assets -name "*.js.map" -type f | tr '\n' ' ')
+          echo "source_maps=$SOURCE_MAPS" >> "$GITHUB_OUTPUT"
+      - name: Notify Rollbar
+        uses: rollbar/github-deploy-action@2.1.2
+        with:
+          environment: 'production'
+          version: ${{ steps.package-version.outputs.current-version }}
+          local_username: 'techbilling'
+          source_maps: ${{ steps.find-source-map.outputs.source_map }}
+        env:
+          ROLLBAR_ACCESS_TOKEN: ${{ secrets.ROLLBAR_DEPLOY_KEY }}
