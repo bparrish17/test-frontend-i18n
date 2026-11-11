@@ -1,0 +1,50 @@
+{
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "name": "Name",
+    "category": "Kategorie",
+    "close": "Schließen",
+    "share": "Teilen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "title": "Titel",
+    "people": "Personen",
+    "reset": "Zurücksetzen",
+    "delete": "Löschen",
+    "description": "Beschreibung",
+    "done": "Fertig"
+  },
+  "manageTeams": {
+    "pageTitle": "Teams verwalten",
+    "documentTitle": "Teams verwalten - FORA",
+    "noTeamsYet": "Noch keine Teams",
+    "teamNamePlaceholder": "Teamnamen eingeben",
+    "memberCount_one": "{{count}} Mitglied",
+    "memberCount_other": "{{count}} Mitglieder",
+    "linkCopied": "Link in die Zwischenablage kopiert",
+    "teamSaved": "Team gespeichert",
+    "deleteTeamConfirm": "{{name}} löschen? Mitglieder behalten ihre Meetings, aber geteilte Linsen und Digests werden für dieses Team nicht mehr aktualisiert."
+  },
+  "focusMetadata": {
+    "followers_one": "{{count}} Follower",
+    "followers_other": "{{count}} Follower",
+    "rules_one": "{{count}} Regel",
+    "rules_other": "{{count}} Regeln"
+  },
+  "pulseDeck": {
+    "items_one": "{{count}} Element",
+    "items_other": "{{count}} Elemente"
+  },
+  "settingsPage": {
+    "dataSources": "Datenquellen",
+    "manageUsers": "Benutzer verwalten",
+    "calendar": "Kalender",
+    "settings": "Einstellungen",
+    "adminSettings": "Admin-Einstellungen"
+  },
+  "chatHeader": {
+    "askFora": "FORA fragen",
+    "clearChat": "Chat leeren"
+  }
+}

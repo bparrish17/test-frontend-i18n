@@ -28,8 +28,8 @@ export default function FocusMetadata({ focus }) {
       fontSize='sm'
       fontWeight={500}
     >
-      <Text color={color}>{t('focusMetadata.followers', { followersCount })}</Text>
-      <Text color={color}>{t('focusMetadata.rules', { rulesCount })}</Text>
+      <Text color={color}>{t('focusMetadata.followers', { count: followersCount })}</Text>
+      <Text color={color}>{t('focusMetadata.rules', { count: rulesCount })}</Text>
       <Text
         color={color}
         fontWeight={400}

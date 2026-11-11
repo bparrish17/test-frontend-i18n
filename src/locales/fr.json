@@ -1,0 +1,99 @@
+{
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "name": "Nom",
+    "category": "Catégorie",
+    "close": "Fermer",
+    "share": "Partager",
+    "edit": "Modifier",
+    "create": "Créer",
+    "title": "Titre",
+    "people": "Personnes",
+    "reset": "Réinitialiser",
+    "delete": "Supprimer",
+    "description": "Description",
+    "done": "Terminé",
+    "next": "Suivant"
+  },
+  "manageTeams": {
+    "pageTitle": "Gérer les équipes",
+    "documentTitle": "Gérer les équipes - FORA",
+    "teamsGroupPeople": "Les équipes regroupent les personnes qui partagent des résumés, des lentilles et des synthèses.",
+    "noTeamsYet": "Aucune équipe pour le moment",
+    "teamActions": "Actions de l'équipe",
+    "teamNamePlaceholder": "Saisissez un nom d'équipe",
+    "addPeoplePlaceholder": "Ajoutez des personnes par e-mail",
+    "memberCount_one": "{{count}} membre",
+    "memberCount_many": "{{count}} de membres",
+    "memberCount_other": "{{count}} membres",
+    "linkCopied": "Lien copié dans le presse-papiers",
+    "teamSaved": "Équipe enregistrée",
+    "deleteTeamConfirm": "Supprimer {{name}} ? Les membres conservent leurs réunions, mais les lentilles et synthèses partagées ne seront plus mises à jour pour cette équipe.",
+    "manageYourTeams": "Créez des équipes et choisissez qui partage les lentilles et les synthèses"
+  },
+  "focusMetadata": {
+    "followers_one": "{{count}} abonné",
+    "followers_other": "{{count}} abonnés",
+    "rules_one": "{{count}} règle",
+    "rules_other": "{{count}} règles"
+  },
+  "insightMetadata": {
+    "foraInsightFor": "Analyse FORA pour {{name}}",
+    "sources_one": "{{count}} source",
+    "sources_other": "{{count}} sources"
+  },
+  "pulseDeck": {
+    "nextPulse": "Pulse suivant",
+    "previousPulse": "Pulse précédent",
+    "items_one": "{{count}} élément",
+    "items_other": "{{count}} éléments"
+  },
+  "earningsCallsPage": {
+    "lastUpdated": "Dernière mise à jour",
+    "nextCall": "Prochain appel",
+    "earningsCalls": "Conférences sur les résultats",
+    "addTicker": "Ajouter un symbole",
+    "items_one": "{{count}} élément",
+    "items_other": "{{count}} éléments",
+    "searchPlaceholder": "Rechercher"
+  },
+  "labelForm": {
+    "titleIsAlreadyIn": "Ce titre est déjà utilisé.",
+    "chars": "{{length}} / {{maxChars}} caractères",
+    "enterALabelNamePlaceholder": "Saisissez un nom d'étiquette",
+    "howShouldForaInterpret": "Comment FORA doit-il interpréter cette étiquette ?",
+    "enterADescriptionPlaceholder": "Saisissez une description",
+    "internalVsExternal": "Interne ou externe"
+  },
+  "settingsPage": {
+    "yourProfileSettings": "Paramètres du profil",
+    "dataSources": "Sources de données",
+    "manageLabels": "Gérer les étiquettes",
+    "categories": "Catégories",
+    "manageUsers": "Gérer les utilisateurs",
+    "addRemoveUsers": "Ajoutez et supprimez des utilisateurs.",
+    "analytics": "Statistiques",
+    "signInSecurity": "Connexion et sécurité",
+    "calendar": "Calendrier",
+    "emailSubscriptions": "Abonnements e-mail",
+    "earningsCalls": "Conférences sur les résultats",
+    "recording": "Enregistrement",
+    "manageTemplates": "Gérer les modèles",
+    "manageUploads": "Gérer les importations",
+    "settings": "Paramètres",
+    "adminSettings": "Paramètres d'administration"
+  },
+  "chatHeader": {
+    "untitledContent": "Contenu sans titre",
+    "askFora": "Demander à FORA",
+    "summaryOptions": "Options du résumé",
+    "clearChat": "Effacer la conversation",
+    "expandAriaLabel": "Développer",
+    "collapseAriaLabel": "Réduire"
+  },
+  "deactivateTemplateModal": {
+    "deleteTemplatePermanently": "Supprimer définitivement le modèle ?",
+    "deletePermanently": "Supprimer définitivement"
+  }
+}

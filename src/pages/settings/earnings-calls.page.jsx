@@ -336,7 +336,7 @@ export default function EarningsCallsPage() {
             color='surface.onSurfaceVariant'
             fontSize='sm'
           >
-            {t('earningsCallsPage.items', { length: filteredTickers.length })}
+            {t('earningsCallsPage.items', { count: filteredTickers.length })}
           </Text>
 
           <InputGroup

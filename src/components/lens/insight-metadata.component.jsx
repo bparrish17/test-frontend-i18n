@@ -159,7 +159,7 @@ function InsightMetadata({ insight }) {
                 textDecoration: 'underline'
               }}
             >
-              {t('insightMetadata.sources', { length: sources?.length })}
+              {t('insightMetadata.sources', { count: sources?.length ?? 0 })}
             </Text>
           </Stack>
         </Stack>
