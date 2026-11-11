@@ -17,16 +17,16 @@ export default function FocusEditDetails({
 
   return (
     <>
-      <FocusFormField label={t('focusEditDetails.category')}>
+      <FocusFormField label={t('common.category')}>
         <Input
-          placeholder={t('focusEditDetails.categoryPlaceholder')}
+          placeholder={t('common.category')}
           size='lg'
           value={title}
           onChange={(e) => setTitle(e?.target?.value)}
           onBlur={onBlur}
         />
       </FocusFormField>
-      <FocusFormField label={t('focusEditDetails.description')}>
+      <FocusFormField label={t('common.description')}>
         <Textarea
           rows='5'
           borderRadius='xl'

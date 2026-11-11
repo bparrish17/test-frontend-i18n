@@ -247,6 +247,12 @@ export default function SettingsPage() {
       description: t('settingsPage.manageYourUploadedMeetings')
     },
     {
+      path: '/manage-teams',
+      icon: SFThreePersonIconOutlined,
+      title: t('manageTeams.pageTitle'),
+      description: t('manageTeams.manageYourTeams')
+    },
+    {
       hidden: true, // TODO: Eventually we will allow users to configure this
       path: '/configure-okta',
       icon: BlackOktaAura,

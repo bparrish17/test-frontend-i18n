@@ -1,4 +1,21 @@
 {
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "name": "Name",
+    "category": "Category",
+    "close": "Close",
+    "share": "Share",
+    "edit": "Edit",
+    "create": "Create",
+    "title": "Title",
+    "people": "People",
+    "reset": "Reset",
+    "delete": "Delete",
+    "description": "Description",
+    "done": "Done",
+    "next": "Next"
+  },
   "agendaStats": {
     "meetings": "Meetings",
     "total": "Total",
@@ -15,8 +32,6 @@
     "enterSearchQueryPlaceholder": "Enter search query"
   },
   "chatArtifactContent": {
-    "save": "Save",
-    "cancel": "Cancel",
     "templateSaved": "Template Saved!",
     "templateSaveError": "Template Save Error",
     "previousArtifactVersionAriaLabel": "Previous Artifact Version",
@@ -72,15 +87,12 @@
     "selectRelevantTagsTo": "Select relevant tags to focus on"
   },
   "peopleFilter": {
-    "people": "People",
     "filterByInternalAnd": "Filter by internal and external people",
     "addInternalPeoplePlaceholder": "Add Internal People...",
     "addExternalPeoplePlaceholder": "Add External People...",
     "inputAnEmailThen": "Input an email then press \"Enter\" or \"Tab\""
   },
   "createLensForm": {
-    "edit": "Edit",
-    "create": "Create",
     "editLensSettings": "Edit Lens Settings",
     "createYourLens": "Create Your Lens",
     "editTheTitleCustomization": "Edit the title, customization options, and collaborators for your lens.",
@@ -107,10 +119,8 @@
     "filteringOptions": "Filtering Options",
     "byDefaultLensesLook": "By default, lenses look for updates about all people, dates, and types available to you, but you should filter this down to get more relevant updates.",
     "filterBy": "Filter By",
-    "save": "Save",
     "finishSave": "Finish & Save",
     "pleaseResolveTheFollowing": "Please resolve the following required fields:",
-    "title": "Title",
     "topicsThemesPrompt": "Topics & Themes Prompt",
     "whyThisIsImportant2": "Why This is Important Prompt",
     "contentType": "Content Type",
@@ -173,16 +183,12 @@
     "dailyRepeatsEvery24": "Daily – Repeats every 24 hours at midnight.",
     "weeklyRepeatsEverySunday": "Weekly – Repeats every Sunday at midnight.",
     "monthlyRepeatsOnThe": "Monthly – Repeats on the last day of each month at midnight.",
-    "category": "Category",
     "chooseCategoryPlaceholder": "Choose Category",
-    "pleaseResolveTheRequired": "Please resolve the required fields",
-    "save": "Save",
-    "create": "Create"
+    "pleaseResolveTheRequired": "Please resolve the required fields"
   },
   "teamsDigestModal": {
     "summarizeAllCurrentFuture": "Summarize all current & future channels",
     "addsFutureChannelsAutomatically": "(adds future channels automatically)",
-    "edit": "Edit",
     "createA": "Create a",
     "whichTeamsChannelsDo": "Which Teams' channels do you want to summarize?",
     "connectTeams": "Connect Teams",
@@ -222,14 +228,9 @@
   },
   "feedRangepicker": {
     "customDateRange": "Custom Date Range",
-    "reset": "Reset",
-    "done": "Done",
     "mmDdYy": "MM/DD/YY"
   },
   "focusEditDetails": {
-    "category": "Category",
-    "categoryPlaceholder": "Category",
-    "description": "Description",
     "addContextToHelpPlaceholder": "Add context to help FORA understand this category. How is information shared (meetings, chats, reports)? What are the main subjects covered within this category?",
     "color": "Color"
   },
@@ -298,8 +299,7 @@
     "addALabel": "Add a Label"
   },
   "insightCarousel": {
-    "previousAriaLabel": "Previous",
-    "nextAriaLabel": "Next"
+    "previousAriaLabel": "Previous"
   },
   "reskinCardBody": {
     "previewSharedSummary": "Preview Shared Summary",
@@ -346,7 +346,6 @@
     "summaryOptions": "Summary Options",
     "copyLink": "Copy Link",
     "unsave": "Unsave",
-    "save": "Save",
     "unarchive": "Unarchive",
     "archive": "Archive"
   },
@@ -357,7 +356,6 @@
     "today": "Today,"
   },
   "featureGatesTable": {
-    "name": "Name",
     "copiedToClipboard": "Copied to clipboard",
     "copyFailed": "Copy failed",
     "couldNotCopyText": "Could not copy text to clipboard.",
@@ -433,17 +431,11 @@
     "addFollowersButtonAriaLabel": "add followers button",
     "searchForUpcomingMeetingsPlaceholder": "Search for upcoming meetings by title..."
   },
-  "deleteConfirmationModal": {
-    "cancel": "Cancel"
-  },
   "labelFormModal": {
-    "edit": "Edit",
     "new": "New"
   },
   "labelsModal": {
-    "addAndEditLabels": "Add and Edit Labels",
-    "cancel": "Cancel",
-    "done": "Done"
+    "addAndEditLabels": "Add and Edit Labels"
   },
   "videoModal": {
     "playbackSpeed": "Playback Speed",
@@ -468,10 +460,6 @@
   },
   "accordionTable": {
     "viewMore": "View More"
-  },
-  "columnFilterPopover": {
-    "reset": "Reset",
-    "close": "Close"
   },
   "paginator": {
     "show": "Show {{pageSize}}"
@@ -515,14 +503,12 @@
     "feedForaDay": "feed@fora.day"
   },
   "appHeader": {
-    "close": "Close",
     "foraBrandLogoAlt": "fora brand logo"
   },
   "mobileHeader": {
     "home": "Home",
     "latest": "Latest",
     "addForaToA": "Add FORA to a meeting",
-    "close": "Close",
     "support": "Support",
     "signOut": "Sign Out"
   },
@@ -546,9 +532,7 @@
     "meetingDate": "Meeting Date",
     "meetingTime": "Meeting Time",
     "n1230pmPlaceholder": "12:30PM",
-    "title": "Title",
     "yourMeetingTitlePlaceholder": "Your meeting title",
-    "category": "Category",
     "chooseCategoryPlaceholder": "Choose Category",
     "summarize": "Summarize"
   },
@@ -609,7 +593,6 @@
   },
   "addForaModal": {
     "addForaToThis": "Add Fora to this meeting",
-    "category": "Category",
     "addFora": "Add Fora"
   },
   "createMeetingModal": {
@@ -630,15 +613,12 @@
     "videoconferencingLink": "Videoconferencing Link",
     "to": "to",
     "meetingTypePlaceholder": "Meeting Type",
-    "pleaseSelectAMeeting2": "Please select a meeting type.",
-    "cancel": "Cancel"
+    "pleaseSelectAMeeting2": "Please select a meeting type."
   },
   "meetingSummary": {
     "thisIsACurated": "This is a curated summary based on ",
     "deleteSummary": "Delete Summary?",
-    "areYouSureYou": "Are you sure you want to delete your custom summary?",
-    "cancel": "Cancel",
-    "delete": "Delete"
+    "areYouSureYou": "Are you sure you want to delete your custom summary?"
   },
   "relevantLenses": {
     "viewMore": "View More"
@@ -646,7 +626,6 @@
   "shareMeetingModal": {
     "successfullySharedMeeting": "Successfully shared meeting",
     "sendTo": "Send to...",
-    "share": "Share",
     "shareSummary": "Share Summary"
   },
   "timeline": {
@@ -659,7 +638,6 @@
   "orgChart": {
     "supportForaDay": "support@fora.day",
     "options": "Options",
-    "share": "Share",
     "viewProfile": "View Profile",
     "seeMore": "See More"
   },
@@ -760,27 +738,21 @@
   "deactivateTemplateModal": {
     "deleteTemplatePermanently": "Delete Template Permanently?",
     "ifYouDeleteThis": "If you delete this template, you will no longer be able to access it or apply it to any meeting. However, meetings where the template has already been applied will remain unaffected.",
-    "cancel": "Cancel",
     "deletePermanently": "Delete Permanently"
   },
   "labelForm": {
     "titleIsAlreadyIn": "Title is already in use.",
     "noteEditingAndDeleting": "Note: Editing and deleting labels only applies to future content. The previous label will remain on existing content.",
     "pleaseProvideDetailsAbout": "Please provide details about this label so FORA can match content with it more effectively.",
-    "title": "Title",
     "chars": "{{length}} / {{maxChars}} chars",
     "enterALabelNamePlaceholder": "Enter a label name",
-    "description": "Description",
     "howShouldForaInterpret": "How should FORA interpret this label?",
     "enterADescriptionPlaceholder": "Enter a description",
     "internalVsExternal": "Internal vs. External",
-    "shouldForaApplyThis": "Should FORA apply this to internal or external content?",
-    "save": "Save",
-    "create": "Create"
+    "shouldForaApplyThis": "Should FORA apply this to internal or external content?"
   },
   "manageUploadsTable": {
     "type": "Type",
-    "name": "Name",
     "date": "Date",
     "status": "Status",
     "link": "Link"
@@ -791,15 +763,13 @@
     "changePassword": "Change Password",
     "currentPasswordPlaceholder": "Current Password",
     "newPasswordPlaceholder": "New Password",
-    "confirmPasswordPlaceholder": "Confirm Password",
-    "save": "Save"
+    "confirmPasswordPlaceholder": "Confirm Password"
   },
   "userForm": {
     "notePleaseVisitYour": "Note: Please visit your Google Workspace or Microsoft Entra page to edit user information.",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",
-    "title": "Title",
     "departments": "Departments",
     "manager": "Manager",
     "departmentsPlaceholder": "Departments",
@@ -815,7 +785,6 @@
   },
   "mobileAgenda": {
     "today": "Today",
-    "people": "People",
     "orgs": "Orgs"
   },
   "hubspotCallbackPage": {
@@ -859,7 +828,6 @@
     "tableOfContents": "Table Of Contents",
     "navigationTabs": "Navigation Tabs",
     "overview": "Overview",
-    "people": "People",
     "orgs": "Orgs",
     "documentIcons": "Document Icons",
     "banner": "Banner"
@@ -977,7 +945,6 @@
     "successfullySharedEarningsCall": "Successfully shared earnings call",
     "somethingWentWrongWhile": "Something went wrong while sharing earnings call. Please try again.",
     "sendTo": "Send to...",
-    "share": "Share",
     "shareSummary": "Share Summary",
     "previewSharedSummary": "Preview Shared Summary"
   },
@@ -1032,7 +999,6 @@
   "lensInsightPage": {
     "youDoNotHave": "You do not have access to this page.",
     "thisArticleHasAn": "This article has an update",
-    "share": "Share",
     "yourInformationIsSecure": "Your information is secure",
     "privateMeetingsAreOnly": "Private meetings are only visible to invitees of those meetings. Other lens followers will not see data from those meetings.",
     "insightMenuAriaLabel": "Insight Menu",
@@ -1087,7 +1053,6 @@
   },
   "mobileMeetingPage": {
     "meetingSummary": "Meeting Summary",
-    "people": "People",
     "organizations": "Organizations"
   },
   "personalSummarySection": {
@@ -1173,7 +1138,6 @@
   },
   "earningsCallsPage": {
     "yourCompanyIsNot": "Your company is not currently subscribed to any Earnings Calls. Please click the Add Ticker button above to subscribe to Earnings Calls",
-    "name": "Name",
     "lastUpdated": "Last Updated",
     "nextCall": "Next Call",
     "stockTickerOptions": "STOCK TICKER OPTIONS",
@@ -1195,17 +1159,14 @@
     "helpsYouPrepareFor": "Helps you prepare for your day",
     "foraEndOfDay": "FORA End-of-Day Summary",
     "reviewRecentlySummarizedInformation": "Review recently summarized information",
-    "save": "Save",
     "deliverDailyAt": "Deliver daily at"
   },
   "manageDigestsPage": {
     "source": "Source",
-    "name": "Name",
     "frequency": "Frequency",
     "dateCreated": "Date Created"
   },
   "manageLabelsPage": {
-    "name": "Name",
     "createdBy": "Created By",
     "dateCreated": "Date Created",
     "addLabel": "Add Label",
@@ -1214,7 +1175,6 @@
   "manageTemplatesPage": {
     "templateDeletedSuccessfully": "Template deleted successfully.",
     "couldNotDeleteTemplate": "Could not delete template. Please try again.",
-    "name": "Name",
     "dateCreated": "Date Created",
     "items": "{{length}} Items"
   },
@@ -1232,7 +1192,6 @@
     "doNotRecordMeetings2": "Do not record meetings that have at least 1 participant from these domains:",
     "keyWords": "Key Words",
     "wordsListedHereWill": "Words listed here will be \"boosted\" by FORA during meeting transcription, causing them to appear more consistently",
-    "save": "Save",
     "add": "Add"
   },
   "settingsPage": {
@@ -1282,8 +1241,7 @@
     "viewOnLinkedin": "View on LinkedIn",
     "contact": "Contact",
     "editPrompt": "Edit Prompt",
-    "viewForaActivity": "View FORA activity",
-    "save": "Save"
+    "viewForaActivity": "View FORA activity"
   },
   "zoomSettingsPage": {
     "zoomAccountNotConnected": "Zoom account not connected. Zoom must be authorized first",
@@ -1293,8 +1251,21 @@
     "foraRequiresLocalRecording": "FORA requires local recording be enabled"
   },
   "tableHelpers": {
-    "search": "Search",
-    "reset": "Reset",
-    "close": "Close"
+    "search": "Search"
+  },
+  "manageTeams": {
+    "pageTitle": "Manage Teams",
+    "documentTitle": "Manage Teams - FORA",
+    "teamsGroupPeople": "Teams group people who share summaries, lenses, and digests.",
+    "noTeamsYet": "No teams yet",
+    "teamActions": "Team actions",
+    "teamNamePlaceholder": "Enter a team name",
+    "addPeoplePlaceholder": "Add people by email",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "linkCopied": "Link copied to clipboard",
+    "teamSaved": "Team saved",
+    "deleteTeamConfirm": "Delete {{name}}? Members keep their meetings, but shared lenses and digests stop updating for this team.",
+    "manageYourTeams": "Create teams and choose who shares lenses and digests"
   }
 }

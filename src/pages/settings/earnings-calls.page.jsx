@@ -206,7 +206,7 @@ export default function EarningsCallsPage() {
   // Define table headers
   const headers = [
     {
-      title: t('earningsCallsPage.name'),
+      title: t('common.name'),
       orderBy: 'symbol',
       dir: 'asc',
       width: '2fr',

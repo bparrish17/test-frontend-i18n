@@ -167,7 +167,7 @@ export default function DigestForm({
         rules={{ required: 'Category is Required' }}
         render={({ field: { name, value, onChange }, fieldState }) => (
           <StepWithLabelComponent
-            label={t('digestForm.category')}
+            label={t('common.category')}
             name={name}
             fieldState={fieldState}
           >
@@ -200,7 +200,7 @@ export default function DigestForm({
           isDisabled={isSubmitting}
         >
           <Text as='span'>
-            {isEdit ? t('digestForm.save') : t('digestForm.create')} {sourceType} Digest
+            {isEdit ? t('common.save') : t('common.create')} {sourceType} Digest
           </Text>
           {isSubmitting && (
             <Spinner

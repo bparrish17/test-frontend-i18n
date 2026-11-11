@@ -111,7 +111,7 @@ const ChatTitle = () => {
             setIsTitleFormDirty(true);
           }}
         >
-          {t('chatArtifactContent.save')}
+          {t('common.save')}
         </Button>
         &nbsp;&nbsp;
         <Button
@@ -121,7 +121,7 @@ const ChatTitle = () => {
           }}
           variant='reskinSecondary'
         >
-          {t('chatArtifactContent.cancel')}
+          {t('common.cancel')}
         </Button>
       </Box>
     );

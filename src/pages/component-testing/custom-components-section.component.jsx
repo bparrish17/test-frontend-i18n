@@ -333,7 +333,7 @@ export default function CustomComponentsSection() {
           name='agenda-sidebar-filter'
           options={[
             { value: 'overview', label: t('customComponentsSection.overview') },
-            { value: 'people', label: t('customComponentsSection.people') },
+            { value: 'people', label: t('common.people') },
             { value: 'organizations', label: t('customComponentsSection.orgs') }
           ]}
           value={agendaFilter}

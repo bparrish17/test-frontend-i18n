@@ -74,14 +74,14 @@ function ColumnSearchActions({ onConfirm, onClearFilters, onClose }) {
           onConfirm();
         }}
       >
-        {t('tableHelpers.reset')}
+        {t('common.reset')}
       </Button>
       <Button
         type='link'
         size='small'
         onClick={() => onClose()}
       >
-        {t('tableHelpers.close')}
+        {t('common.close')}
       </Button>
     </Space>
   );

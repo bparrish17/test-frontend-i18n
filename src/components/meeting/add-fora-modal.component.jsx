@@ -91,7 +91,7 @@ export default function AddForaModal({ meeting, disclosure }) {
           flexDir='column'
           gap={4}
         >
-          <Text variant='content-section-header'>{t('addForaModal.category')}</Text>
+          <Text variant='content-section-header'>{t('common.category')}</Text>
           <FocusSelect
             isOpen={focusSelectDisclosure.isOpen}
             onOpen={focusSelectDisclosure.onOpen}

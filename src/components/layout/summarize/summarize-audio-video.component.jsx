@@ -340,7 +340,7 @@ const SummarizeAudioVideo = ({ disclosure }) => {
               </HStack>
 
               <StepWithLabelComponent
-                label={t('summarizeAudioVideo.title')}
+                label={t('common.title')}
                 name='title'
                 fieldState={getFieldState('title')}
               >
@@ -357,7 +357,7 @@ const SummarizeAudioVideo = ({ disclosure }) => {
                 rules={{ required: 'Pick a category' }}
                 render={({ field: { name, value, onChange }, fieldState }) => (
                   <StepWithLabelComponent
-                    label={t('summarizeAudioVideo.category')}
+                    label={t('common.category')}
                     name={name}
                     fieldState={fieldState}
                   >

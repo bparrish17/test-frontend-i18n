@@ -81,7 +81,7 @@ export default function ShareEarningsCallModal({ card, topicGroups, earningsCall
             />
           }
         >
-          {t('shareEarningsCallModal.share')}
+          {t('common.share')}
         </Button>
       }
       disclosure={shareEarningsCallDisclosure}

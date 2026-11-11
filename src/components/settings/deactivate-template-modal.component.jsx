@@ -38,7 +38,7 @@ export default function DeactivateTemplateModal({ disclosure, onConfirm }) {
             variant='reskinSecondary'
             onClick={disclosure.onClose}
           >
-            {t('deactivateTemplateModal.cancel')}
+            {t('common.cancel')}
           </Button>
           <Button
             type='submit'

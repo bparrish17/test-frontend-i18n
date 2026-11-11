@@ -48,7 +48,7 @@ export default function MobileAgenda({
         <HStack gap={4}>
           <TabList>
             <Tab>{t('mobileAgenda.today')}</Tab>
-            <Tab>{t('mobileAgenda.people')}</Tab>
+            <Tab>{t('common.people')}</Tab>
             <Tab>{t('mobileAgenda.orgs')}</Tab>
           </TabList>
           <CalendarSyncButton />

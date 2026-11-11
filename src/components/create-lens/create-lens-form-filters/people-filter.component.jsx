@@ -78,7 +78,7 @@ export default function PeopleFilter({ control, watch, setValue, isViewOnlyMode 
             fontSize='lg'
             variant={isChecked ? 'page-header' : ''}
           >
-            {t('peopleFilter.people')}
+            {t('common.people')}
           </Text>
           <Text
             fontWeight={400}

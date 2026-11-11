@@ -48,7 +48,7 @@ export default function ManageTemplatesPage() {
 
   const headers = [
     {
-      title: t('manageTemplatesPage.name'),
+      title: t('common.name'),
       orderBy: 'title',
       dir: 'desc',
       props: {

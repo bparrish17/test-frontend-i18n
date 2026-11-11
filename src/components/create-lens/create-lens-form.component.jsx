@@ -113,7 +113,7 @@ export default function CreateLensForm({ lensForm, isEdit }) {
               as='span'
               fontWeight={600}
             >
-              {isEdit ? t('createLensForm.edit') : t('createLensForm.create')} Lens
+              {isEdit ? t('common.edit') : t('common.create')} Lens
             </Text>
           </HStack>
         )}
@@ -514,7 +514,7 @@ export default function CreateLensForm({ lensForm, isEdit }) {
           w={96}
           isDisabled={isViewOnlyMode || isSubmitting}
         >
-          {isEdit ? t('createLensForm.save') : t('createLensForm.finishSave')}
+          {isEdit ? t('common.save') : t('createLensForm.finishSave')}
         </Button>
       </Stack>
       <FollowersChangeAlertDialog
@@ -540,7 +540,7 @@ function ValidationMessage({ formState }) {
         <AlertTitle>{t('createLensForm.pleaseResolveTheFollowing')}</AlertTitle>
         <AlertDescription>
           <UnorderedList>
-            {formState?.errors?.title && <ListItem>{t('createLensForm.title')}</ListItem>}
+            {formState?.errors?.title && <ListItem>{t('common.title')}</ListItem>}
             {formState?.errors?.lens_config?.match_prompt && (
               <ListItem>{t('createLensForm.topicsThemesPrompt')}</ListItem>
             )}

@@ -195,14 +195,14 @@ const LabelsModal = ({ meeting, card: initialCard, disclosure }) => {
                     onClick={disclosure.onClose}
                     variant='reskinSecondary'
                   >
-                    {t('labelsModal.cancel')}
+                    {t('common.cancel')}
                   </Button>
                   <Button
                     isLoading={isSubmitting}
                     variant='reskinPrimary'
                     type='submit'
                   >
-                    {t('labelsModal.done')}
+                    {t('common.done')}
                   </Button>
                 </HStack>
               </Stack>

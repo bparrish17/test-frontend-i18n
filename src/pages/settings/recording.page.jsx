@@ -178,7 +178,7 @@ export default function RecordingPage() {
             w={200}
             isLoading={isPatching}
           >
-            {t('recordingPage.save')}
+            {t('common.save')}
           </Button>
         </Stack>
       </form>

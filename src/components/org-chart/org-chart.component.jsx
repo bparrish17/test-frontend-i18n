@@ -168,7 +168,7 @@ const OrgChart = ({ isOpen }) => {
                   copyToClipboard(url, 'Link');
                 }}
               >
-                {t('orgChart.share')}
+                {t('common.share')}
               </MenuItem>
             </MenuList>
           </Menu>

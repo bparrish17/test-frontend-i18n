@@ -160,7 +160,7 @@ export default function MyAccount() {
               leftIcon={isSubmitting && <Spinner size='xs' />}
               isDisabled={isSubmitting}
             >
-              {t('myAccount.save')}
+              {t('common.save')}
             </Button>
           </CardFooter>
         </Card>

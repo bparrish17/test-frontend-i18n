@@ -136,7 +136,7 @@ export default function LabelForm({
         </Text>
         <Stack gap={3}>
           <HStack>
-            <Text variant='body-700-sm'>{t('labelForm.title')}</Text>
+            <Text variant='body-700-sm'>{t('common.title')}</Text>
             <Spacer />
             <Text
               variant='label-lighter-md'
@@ -172,7 +172,7 @@ export default function LabelForm({
           </Collapse>
         </Stack>
         <Stack gap={3}>
-          <Text variant='body-700-sm'>{t('labelForm.description')}</Text>
+          <Text variant='body-700-sm'>{t('common.description')}</Text>
           <Text
             variant='body-reg-sm'
             color='surface.onSurfaceVariant'
@@ -231,7 +231,7 @@ export default function LabelForm({
             }}
             isLoading={isLoading}
           >
-            {isEditing ? t('labelForm.save') : t('labelForm.create')}
+            {isEditing ? t('common.save') : t('common.create')}
           </Button>
         </HStack>
       </Stack>

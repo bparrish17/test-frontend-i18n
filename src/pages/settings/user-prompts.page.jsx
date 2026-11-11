@@ -333,7 +333,7 @@ function UserPromptEditModal({ userId, name, title, context, setContext }) {
           variant='reskinPrimary'
           onClick={submitPrompt}
         >
-          {t('userPromptsPage.save')}
+          {t('common.save')}
         </Button>
       </VStack>
     </StyledModal>

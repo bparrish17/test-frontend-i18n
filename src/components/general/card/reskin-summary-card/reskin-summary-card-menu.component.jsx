@@ -39,7 +39,7 @@ export default function ReskinSummaryCardMenu({
             icon={card?.preferred ? <SFSaveIconFilled w={5} /> : <SFSaveIconOutlined w={5} />}
             onClick={() => onCardActionClick('save', !card?.preferred, card)}
           >
-            {card?.preferred ? t('reskinSummaryCardMenu.unsave') : t('reskinSummaryCardMenu.save')}
+            {card?.preferred ? t('reskinSummaryCardMenu.unsave') : t('common.save')}
           </MenuItem>
           <MenuItem
             icon={card?.archived ? <SFArchiveFilled w={5} /> : <SFArchiveOutlined w={5} />}

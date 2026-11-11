@@ -176,7 +176,7 @@ export default function EmailSubscriptionsPage() {
                   isLoading={isSubmitting}
                   isDisabled={!formMethods?.formState?.isDirty}
                 >
-                  {t('emailSubscriptionsPage.save')}
+                  {t('common.save')}
                 </Button>
               </Box>
             </Stack>

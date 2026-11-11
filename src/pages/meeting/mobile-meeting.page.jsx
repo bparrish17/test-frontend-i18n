@@ -29,7 +29,7 @@ export default function MobileMeetingPage({ sections }) {
         <ReskinMobileStickyNav showCalendar={false}>
           <TabList w='full'>
             <Tab>{t('mobileMeetingPage.meetingSummary')}</Tab>
-            {!isGuest && !isAssociate && <Tab>{t('mobileMeetingPage.people')}</Tab>}
+            {!isGuest && !isAssociate && <Tab>{t('common.people')}</Tab>}
             {!isGuest && !isAssociate && <Tab>{t('mobileMeetingPage.organizations')}</Tab>}
           </TabList>
         </ReskinMobileStickyNav>

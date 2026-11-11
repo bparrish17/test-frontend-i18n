@@ -73,7 +73,7 @@ export default function AppHeader({ ...containerProps }) {
               colorScheme='caution'
               onClick={() => hideOutageMessage()}
             >
-              {t('appHeader.close')}
+              {t('common.close')}
             </Button>
           </Alert>
         )}

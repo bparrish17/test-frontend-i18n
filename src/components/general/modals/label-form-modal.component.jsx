@@ -28,7 +28,7 @@ const LabelFormModal = ({ disclosure, isEditing, refetch, selectedLabel, onCreat
           <HStack>
             {isEditing ? <SFApplePencil /> : <SFPlusIcon />}
             <Text variant='body-600-md'>
-              {isEditing ? t('labelFormModal.edit') : t('labelFormModal.new')} Label
+              {isEditing ? t('common.edit') : t('labelFormModal.new')} Label
             </Text>
           </HStack>
         </ModalHeader>

@@ -74,13 +74,13 @@ export default function FeedRangepicker({
               setEndDate(null);
             }}
           >
-            {t('feedRangepicker.reset')}
+            {t('common.reset')}
           </Button>
           <Button
             variant='reskinPrimary'
             onClick={() => disclosure.onClose(true)}
           >
-            {t('feedRangepicker.done')}
+            {t('common.done')}
           </Button>
         </Flex>
       </VStack>

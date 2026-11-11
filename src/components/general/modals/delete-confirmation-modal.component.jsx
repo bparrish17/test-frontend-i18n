@@ -52,7 +52,7 @@ export default function DeleteConfirmationModal({
                 variant='reskinSecondary'
                 onClick={disclosure.onClose}
               >
-                {t('deleteConfirmationModal.cancel')}
+                {t('common.cancel')}
               </Button>
               <Button
                 data-testid='confirm-delete-button'

@@ -97,7 +97,7 @@ export default function UserForm({ onFinish, managerOptions = [], user, isSubmit
             color='surface.onSurfaceVariant'
             pt='1px'
           >
-            {t('userForm.title')}
+            {t('common.title')}
           </Text>
           <Text>{user.title}</Text>
         </VStack>
@@ -173,7 +173,7 @@ export default function UserForm({ onFinish, managerOptions = [], user, isSubmit
         type='text'
         size='lg'
         registerProps={{ ...register('title', { required: false }) }}
-        label={t('userForm.title')}
+        label={t('common.title')}
         bg='surface.containerLow'
       />
 

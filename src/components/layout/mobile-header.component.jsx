@@ -149,7 +149,7 @@ export default function MobileHeader() {
               colorScheme='caution'
               onClick={() => hideOutageMessage()}
             >
-              {t('mobileHeader.close')}
+              {t('common.close')}
             </Button>
           </Alert>
         )}{' '}

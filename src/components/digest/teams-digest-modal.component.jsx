@@ -120,7 +120,7 @@ export default function TeamsDigestModal({ isEdit, digest, disclosure }) {
               p={1}
             />
             <Text variant='body-600-md'>
-              {isEdit ? t('teamsDigestModal.edit') : t('teamsDigestModal.createA')} Teams Digest
+              {isEdit ? t('common.edit') : t('teamsDigestModal.createA')} Teams Digest
             </Text>
             <Spacer />
             <ModalCloseButton rounded='full' />

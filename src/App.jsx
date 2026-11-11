@@ -88,6 +88,7 @@ import UserDetailsPage from '@pages/settings/manage-users/user-details.page';
 import ConfigureOktaPage from '@pages/settings/configure-okta.page';
 import ManageTemplatesPage from '@pages/settings/manage-templates.page';
 import ManageUploadsPage from '@pages/settings/manage-uploads.page';
+import ManageTeamsPage from '@pages/settings/manage-teams.page';
 import ManageDigestsPage from '@pages/settings/manage-digests.page';
 import ManageLabelsPage from '@pages/settings/manage-labels.page';
 import MeetingPage from '@pages/meeting/meeting.page';
@@ -455,6 +456,10 @@ function AppRoutes() {
           <Route
             path='/settings/manage-uploads'
             element={<ManageUploadsPage />}
+          />
+          <Route
+            path='/settings/manage-teams'
+            element={<ManageTeamsPage />}
           />
           <Route
             path='/settings/manage-digests'

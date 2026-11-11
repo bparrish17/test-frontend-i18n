@@ -109,7 +109,7 @@ export default function ShareMeetingModal({
             }
             {...buttonStyles}
           >
-            {t('shareMeetingModal.share')}
+            {t('common.share')}
           </Button>
         )
       }

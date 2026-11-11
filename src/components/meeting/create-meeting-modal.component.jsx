@@ -545,7 +545,7 @@ function ActionButtons({ disclosure, isCreatingMeeting, isSchedulingBot }) {
         variant='reskinSecondary'
         onClick={disclosure.onClose}
       >
-        {t('createMeetingModal.cancel')}
+        {t('common.cancel')}
       </Button>
       <Button
         type='submit'

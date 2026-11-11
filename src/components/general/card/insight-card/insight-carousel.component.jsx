@@ -106,7 +106,7 @@ const InsightCarousel = ({ children }) => {
           {currentIndex + 1} of {totalPages}
         </Text>
         <IconButton
-          aria-label={t('insightCarousel.nextAriaLabel')}
+          aria-label={t('common.next')}
           icon={<ChevronRightIcon />}
           onClick={handleNext}
           isDisabled={currentIndex >= totalPages - 1}

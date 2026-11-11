@@ -49,7 +49,7 @@ export default function ManageDigestsPage() {
       )
     },
     {
-      title: t('manageDigestsPage.name'),
+      title: t('common.name'),
       orderBy: 'name',
       dir: 'desc',
       props: {

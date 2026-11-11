@@ -246,7 +246,7 @@ const SummaryDeletion = ({ card, isConfirmingDelete, setIsConfirmingDelete, onDe
               ref={cancelRef}
               onClick={onClose}
             >
-              {t('meetingSummary.cancel')}
+              {t('common.cancel')}
             </Button>
             <Button
               color='white'
@@ -255,7 +255,7 @@ const SummaryDeletion = ({ card, isConfirmingDelete, setIsConfirmingDelete, onDe
               onClick={onConfirmDelete}
               ml={3}
             >
-              {t('meetingSummary.delete')}
+              {t('common.delete')}
             </Button>
           </AlertDialogFooter>
         </AlertDialogContent>

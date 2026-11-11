@@ -57,7 +57,7 @@ export default function ManageLabelsPage() {
     expansionColumn,
     {
       accessorKey: 'title',
-      header: t('manageLabelsPage.name'),
+      header: t('common.name'),
       size: '100%',
       cell: (info) => info.getValue()
     },

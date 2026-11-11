@@ -127,7 +127,7 @@ const FeatureGatesTable = () => {
 
   const tableHeaders = [
     {
-      title: t('featureGatesTable.name'),
+      title: t('common.name'),
       orderBy: 'name',
       dir: 'asc',
       active: true,

@@ -153,7 +153,7 @@ export default function LensInsightPage() {
                   />
                 }
               >
-                {t('lensInsightPage.share')}
+                {t('common.share')}
               </Button>
             )}
           </HStack>

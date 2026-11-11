@@ -36,7 +36,7 @@ export default function ManageUploadsTable({ uploads, cards, type }) {
       )
     },
     {
-      title: t('manageUploadsTable.name'),
+      title: t('common.name'),
       orderBy: 'title',
       dir: 'desc',
       props: {

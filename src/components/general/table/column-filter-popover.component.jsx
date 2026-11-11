@@ -69,7 +69,7 @@ export default function ColumnFilterPopover({ column }) {
               alignSelf='flex-end'
               onClick={() => column.setFilterValue(null)}
             >
-              {t('columnFilterPopover.reset')}
+              {t('common.reset')}
             </Button>
             <Button
               variant='reskinGhost'
@@ -77,7 +77,7 @@ export default function ColumnFilterPopover({ column }) {
               alignSelf='flex-end'
               onClick={() => onClose()}
             >
-              {t('columnFilterPopover.close')}
+              {t('common.close')}
             </Button>
           </ButtonGroup>
         </PopoverBody>
