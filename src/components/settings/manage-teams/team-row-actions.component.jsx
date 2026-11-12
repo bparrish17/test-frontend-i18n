@@ -6,6 +6,7 @@ export default function TeamRowActions({ team, onEdit, onShare, onDelete }) {
   const { t } = useTranslation();
 
   return (
+    // Row actions open to the left so the menu stays inside the table.
     <Menu placement='bottom-end'>
       <MenuButton
         as={IconButton}

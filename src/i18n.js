@@ -6,6 +6,7 @@ import de from '@src/locales/de.json';
 
 export const SUPPORTED_LANGUAGES = ['en', 'fr', 'de'];
 
+// A language picked earlier is kept in localStorage under `lng`.
 const storedLanguage = typeof localStorage === 'undefined' ? null : localStorage.getItem('lng');
 
 i18n.use(initReactI18next).init({
