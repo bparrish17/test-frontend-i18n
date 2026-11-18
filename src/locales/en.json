@@ -236,7 +236,7 @@
   },
   "focusEditFollowers": {
     "followers": "Followers",
-    "addColleaguesPlaceholder": "Add colleagues",
+    "addColleaguesPlaceholder": "Add colleagues ——",
     "reMapAnyMatching": "Re-map any matching existing meetings to this category",
     "ifThisIsOn": "If this is on, when a category is created, Fora will attempt to re-match the category of every future meeting currently on your agenda"
   },
